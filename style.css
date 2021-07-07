@@ -1,0 +1,91 @@
+/* Import Montserrat font */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap");
+:root {
+  --dark-blue: #160eaa;
+  --light-blue: #2a21ed;
+  --yellow: #f9e939;
+}
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+}
+ul,
+ol {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+main {
+  padding: 0 5rem;
+}
+
+/* Scrollbar Styles */
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(167, 167, 167);
+}
+/* Handle hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--yellow);
+}
+
+/* Header Styles */
+.header {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  padding: 5rem;
+}
+.logo {
+  height: 3.2rem;
+}
+.nav__items {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 27rem;
+}
+.nav__item {
+  color: var(--light-blue);
+}
+
+/* Hero section styles */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+.hero__left-side {
+  color: var(--light-blue);
+  width: 50vw;
+}
+.hero__header {
+  font-size: 2.25rem;
+  line-height: 3rem;
+  letter-spacing: 0.094rem;
+}
+.hero__img {
+  height: 35rem;
+}
