@@ -26,7 +26,7 @@ img {
   height: auto;
 }
 main {
-  padding: 0 5rem;
+  padding: 0 5.3rem;
 }
 
 /* Scrollbar Styles */
@@ -47,13 +47,34 @@ main {
   background: var(--yellow);
 }
 
+/* Button Styles */
+.btn {
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  color: var(--light-blue);
+  background-color: var(--yellow);
+  border-radius: 50rem;
+  font-family: "Montserrat", sans-serif;
+  transition: all ease-in-out 0.4s;
+}
+.btn:hover {
+  color: var(--yellow);
+  background-color: var(--light-blue);
+}
+
+.hero__button {
+  margin: 2rem 0 0 0;
+}
 /* Header Styles */
 .header {
   display: flex;
   justify-content: space-between;
   flex-direction: row;
   flex-wrap: nowrap;
-  padding: 5rem;
+  padding: 5.3rem;
 }
 .logo {
   height: 3.2rem;
@@ -76,15 +97,19 @@ main {
   align-items: center;
   flex-direction: row;
   flex-wrap: nowrap;
+  height: 75vh;
 }
 .hero__left-side {
   color: var(--light-blue);
-  width: 50vw;
+  max-width: 50vw;
 }
 .hero__header {
-  font-size: 2.25rem;
+  font-size: 2.375rem;
   line-height: 3rem;
   letter-spacing: 0.094rem;
+}
+.hero__header span {
+  background: linear-gradient(0deg, #f9e93962 50%, #00ffff00 50%);
 }
 .hero__img {
   height: 35rem;
