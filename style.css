@@ -193,6 +193,18 @@ main {
 .work-experience__cards {
   overflow-y: auto;
   width: 50.125rem;
+  padding: 1rem;
+}
+.work-experience__card_collapsed {
+  border: solid 1px#ececec;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 9.063rem;
+  padding: 3rem;
+  color: var(--light-blue);
+  border-radius: 0.7rem;
+  margin-bottom: 1rem;
 }
 .work-experience__card_expanded {
   display: flex;
@@ -210,6 +222,7 @@ main {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#2a21ed",endColorstr="#160eaa",GradientType=1);
   -webkit-box-shadow: 5px 5px 10px 4px rgba(22, 14, 170, 0.22);
   box-shadow: 5px 5px 10px 4px rgba(22, 14, 170, 0.22);
+  margin-bottom: 1rem;
 }
 .work-experience__card-header {
   display: flex;
@@ -230,4 +243,8 @@ main {
   line-height: 1.563rem;
   position: static;
   justify-self: flex-end;
+}
+
+.work-experience__card-text_collapsed {
+  display: none;
 }
