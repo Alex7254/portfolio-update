@@ -198,23 +198,21 @@ main {
   flex-direction: column;
   justify-content: space-between;
   height: 21.125rem;
-  /* padding: 0 3rem;  */
+  padding: 3rem;
   color: #fff;
   border-radius: 0.7rem;
   background-color: forestgreen;
-  /* background: rgb(42, 33, 237);
+  background: rgb(42, 33, 237);
   background: -moz-linear-gradient(130deg, rgba(42, 33, 237, 1) 0%, rgba(22, 14, 170, 1) 100%);
   background: -webkit-linear-gradient(130deg, rgba(42, 33, 237, 1) 0%, rgba(22, 14, 170, 1) 100%);
   background: linear-gradient(130deg, rgba(42, 33, 237, 1) 0%, rgba(22, 14, 170, 1) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#2a21ed",endColorstr="#160eaa",GradientType=1); */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#2a21ed",endColorstr="#160eaa",GradientType=1);
 }
 .work-experience__card-header {
-  display: inline-block;
+  display: flex;
   justify-content: space-between;
   flex-direction: row;
   flex-wrap: nowrap;
-  background-color: red;
-
 }
 .work-experience__card-title {
   font-size: 1.5rem;
@@ -229,6 +227,4 @@ main {
   line-height: 1.563rem;
   position: static;
   justify-self: flex-end;
-  background-color: red;
 }
-
