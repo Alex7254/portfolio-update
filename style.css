@@ -207,6 +207,8 @@ main {
   background: -webkit-linear-gradient(130deg, rgba(42, 33, 237, 1) 0%, rgba(22, 14, 170, 1) 100%);
   background: linear-gradient(130deg, rgba(42, 33, 237, 1) 0%, rgba(22, 14, 170, 1) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#2a21ed",endColorstr="#160eaa",GradientType=1);
+  -webkit-box-shadow: 5px 5px 10px 4px rgba(22, 14, 170, 0.22);
+  box-shadow: 5px 5px 10px 4px rgba(22, 14, 170, 0.22);
 }
 .work-experience__card-header {
   display: flex;
