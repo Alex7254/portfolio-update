@@ -242,8 +242,6 @@ main {
 .work-experience__card-text {
   opacity: 0.75;
   line-height: 1.563rem;
-  position: static;
-  justify-self: flex-end;
 }
 .work-experience__card-text_collapsed {
   display: none;
@@ -261,4 +259,7 @@ main {
   height: 27.5rem;
   width: 28.375rem;
   border: solid 1px#ececec;
+}
+.technical-skills__card-img {
+  height: 6.2rem;
 }
