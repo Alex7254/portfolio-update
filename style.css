@@ -194,31 +194,41 @@ main {
   width: 50.125rem;
 }
 .work-experience__card_expanded {
-  height: 21.125rem;
-  padding: 2.7rem;
   display: flex;
-  justify-content: space-between;
   flex-direction: column;
-  flex-wrap: nowrap;
+  justify-content: space-between;
+  height: 21.125rem;
+  /* padding: 0 3rem;  */
   color: #fff;
   border-radius: 0.7rem;
-  background: rgb(42, 33, 237);
+  background-color: forestgreen;
+  /* background: rgb(42, 33, 237);
   background: -moz-linear-gradient(130deg, rgba(42, 33, 237, 1) 0%, rgba(22, 14, 170, 1) 100%);
   background: -webkit-linear-gradient(130deg, rgba(42, 33, 237, 1) 0%, rgba(22, 14, 170, 1) 100%);
   background: linear-gradient(130deg, rgba(42, 33, 237, 1) 0%, rgba(22, 14, 170, 1) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#2a21ed",endColorstr="#160eaa",GradientType=1);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#2a21ed",endColorstr="#160eaa",GradientType=1); */
 }
-.work-experience__card-title {
-  display: flex;
+.work-experience__card-header {
+  display: inline-block;
   justify-content: space-between;
   flex-direction: row;
   flex-wrap: nowrap;
+  background-color: red;
+
 }
-.work-experience__card-description {
-  display: inline-block;
-  opacity: 0.8;
-  line-height: 1.563rem;
+.work-experience__card-title {
+  font-size: 1.5rem;
+  letter-spacing: 0.094rem;
 }
 .work-experience__date {
-  opacity: 0.8;
+  opacity: 0.75;
+  margin-top: 1rem;
 }
+.work-experience__card-text {
+  opacity: 0.75;
+  line-height: 1.563rem;
+  position: static;
+  justify-self: flex-end;
+  background-color: red;
+}
+
