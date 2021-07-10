@@ -191,6 +191,7 @@ main {
   height: 30rem;
 }
 .work-experience__cards {
+  overflow-y: auto;
   width: 50.125rem;
 }
 .work-experience__card_expanded {
