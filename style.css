@@ -139,7 +139,7 @@ main {
 }
 .project {
   border: solid 1px#ececec;
-  margin-right: 2rem;
+  margin-right: 1rem;
   height: 36.875rem;
   width: 59.375rem;
   border-radius: 1rem;
@@ -244,7 +244,20 @@ main {
   position: static;
   justify-self: flex-end;
 }
-
 .work-experience__card-text_collapsed {
   display: none;
+}
+
+/* Technical Skills Styles */
+.technical-skills__cards {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+.technical-skills__card {
+  border-radius: 0.7rem;
+  padding: 3rem;
+  height: 27.5rem;
+  width: 28.375rem;
+  border: solid 1px#ececec;
 }
