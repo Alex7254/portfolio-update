@@ -250,7 +250,7 @@ main {
 .technical-skills {
   padding: 5.5rem 0;
 }
-.technical-skills__cards {
+.technical-skills__container {
   padding: 5.5rem 0;
   display: flex;
   flex-wrap: nowrap;
