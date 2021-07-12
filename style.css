@@ -251,10 +251,19 @@ main {
   padding: 5.5rem 0;
 }
 .technical-skills__container {
-  padding: 5.5rem 0;
+  /* background-color: red; */
+  height: 38rem;
+  margin: 5rem 0;
   display: flex;
   flex-wrap: nowrap;
   justify-content: space-between;
+  align-items: center;
+}
+.first-card {
+  align-self: flex-start;
+}
+.last-card {
+  align-self: flex-end;
 }
 .technical-skills__card {
   display: flex;
