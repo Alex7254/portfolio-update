@@ -4,7 +4,7 @@
   --dark-blue: #160eaa;
   --light-blue: #2a21ed;
   --blue-grey: #7b7baf;
-  --yellow: #f9e939;
+  --yellow: #F4D35E;
 }
 /* Global Styles */
 * {
@@ -328,5 +328,5 @@ main {
 .footer__menu-link {
   color: #fff;
   display: inline-block;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
 }
