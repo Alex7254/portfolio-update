@@ -29,6 +29,7 @@ img {
 }
 main {
   padding: 0 9rem;
+  position: relative;
 }
 
 /* Scrollbar Styles */
@@ -132,17 +133,15 @@ main {
 .projects__container {
   padding: 4rem 0;
   display: flex;
-  justify-content: start;
   align-items: center;
-  overflow-x: auto;
   flex-direction: row;
-  flex-wrap: nowrap;
+  overflow-x: scroll;
 }
 .project {
   border: solid 1px#ececec;
   margin-right: 1rem;
   height: 36.875rem;
-  width: 59.375rem;
+  width: 590.375rem;
   border-radius: 0.7rem;
   display: flex;
   justify-content: space-between;
