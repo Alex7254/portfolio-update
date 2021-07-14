@@ -133,18 +133,19 @@ main {
 .projects__container {
   padding: 4rem 0;
   display: flex;
+  justify-content: flex-start;
   align-items: center;
   flex-direction: row;
-  overflow-x: scroll;
+  overflow-x: auto;
 }
 .project {
+  flex-shrink: 0;
   border: solid 1px#ececec;
   margin-right: 1rem;
   height: 36.875rem;
-  width: 590.375rem;
+  width: 59.375rem;
   border-radius: 0.7rem;
   display: flex;
-  justify-content: space-between;
   flex-direction: row;
   flex-wrap: nowrap;
   overflow: hidden;
