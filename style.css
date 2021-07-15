@@ -27,10 +27,7 @@ img {
   max-width: 100%;
   height: auto;
 }
-main {
-  padding: 0 9rem;
-  position: relative;
-}
+
 
 /* Scrollbar Styles */
 /* width */
@@ -54,7 +51,6 @@ main {
 .yellow-background {
   background: linear-gradient(0deg, #f4d45e62 50%, #00ffff00 50%);
 }
-
 
 /* Section Title Styles */
 .section-title {
@@ -114,6 +110,7 @@ main {
   flex-direction: row;
   flex-wrap: nowrap;
   height: 75vh;
+  padding: 0 9rem;
 }
 .hero__left-side {
   color: var(--light-blue);
@@ -130,7 +127,7 @@ main {
 
 /* Projects Styles */
 .projects {
-  padding: 5.5rem 0;
+  padding: 5.5rem 0 5.5rem 9rem;
 }
 
 .projects__container {
@@ -182,7 +179,7 @@ main {
 
 /* Work Experience Styles */
 .work-experience {
-  padding: 5.5rem 0;
+  padding: 5.5rem 9rem;
 }
 .work-experience__container {
   padding: 4rem 0;
@@ -252,7 +249,7 @@ main {
 
 /* Technical Skills Styles */
 .technical-skills {
-  padding: 5.5rem 0;
+  padding: 5.5rem 9rem;
 }
 .technical-skills__container {
   /* background-color: red; */
