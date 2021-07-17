@@ -4,7 +4,7 @@
   --dark-blue: #160eaa;
   --light-blue: #2a21ed;
   --blue-grey: #7b7baf;
-  --yellow: #F4D35E;
+  --yellow: #f4d35e;
 }
 /* Global Styles */
 * {
@@ -30,7 +30,6 @@ img {
   max-width: 100%;
   height: auto;
 }
-
 
 /* Scrollbar Styles */
 /* width */
@@ -142,9 +141,12 @@ img {
   flex-direction: row;
   overflow-x: auto;
   scrollbar-width: none; /* Firefox */
-  -ms-overflow-style: none;  /* Internet Explorer 10+ */
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  -webkit-overflow-scrolling: touch; 
 }
-.projects__container::-webkit-scrollbar { /* WebKit */
+.projects__container::-webkit-scrollbar {
+  /* WebKit */
+  display: none;
   width: 0;
   height: 0;
 }
