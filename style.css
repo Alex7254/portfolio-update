@@ -131,6 +131,21 @@ img {
 .projects {
   padding: 5.5rem 0 5.5rem 9rem;
 }
+.title-and-arrows {
+  /* background-color: green; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-right: 9rem;
+}
+.project-navigation {
+  /* background-color: red; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 6rem;
+}
 .projects__container {
   width: 100%;
   padding: 4rem 0;
