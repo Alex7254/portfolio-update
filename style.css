@@ -156,7 +156,7 @@ img {
   overflow-x: auto;
   scrollbar-width: none; /* Firefox */
   -ms-overflow-style: none; /* Internet Explorer 10+ */
-  -webkit-overflow-scrolling: touch; 
+  -webkit-overflow-scrolling: touch;
   scroll-behavior: smooth;
 }
 .projects__container::-webkit-scrollbar {
@@ -244,9 +244,21 @@ img {
   color: #fff;
   border-radius: 0.7rem;
   background: rgb(42, 33, 237);
-  background: -moz-linear-gradient(130deg, rgba(42, 33, 237, 1) 0%, rgba(22, 14, 170, 1) 100%);
-  background: -webkit-linear-gradient(130deg, rgba(42, 33, 237, 1) 0%, rgba(22, 14, 170, 1) 100%);
-  background: linear-gradient(130deg, rgba(42, 33, 237, 1) 0%, rgba(22, 14, 170, 1) 100%);
+  background: -moz-linear-gradient(
+    130deg,
+    rgba(42, 33, 237, 1) 0%,
+    rgba(22, 14, 170, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    130deg,
+    rgba(42, 33, 237, 1) 0%,
+    rgba(22, 14, 170, 1) 100%
+  );
+  background: linear-gradient(
+    130deg,
+    rgba(42, 33, 237, 1) 0%,
+    rgba(22, 14, 170, 1) 100%
+  );
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#2a21ed",endColorstr="#160eaa",GradientType=1);
   -webkit-box-shadow: 5px 5px 10px 4px rgba(22, 14, 170, 0.22);
   box-shadow: 5px 5px 10px 4px rgba(22, 14, 170, 0.22);
@@ -310,9 +322,21 @@ img {
 .technical-skills__card:hover {
   color: #fff;
   background: rgb(42, 33, 237);
-  background: -moz-linear-gradient(130deg, rgba(42, 33, 237, 1) 0%, rgba(22, 14, 170, 1) 100%);
-  background: -webkit-linear-gradient(130deg, rgba(42, 33, 237, 1) 0%, rgba(22, 14, 170, 1) 100%);
-  background: linear-gradient(130deg, rgba(42, 33, 237, 1) 0%, rgba(22, 14, 170, 1) 100%);
+  background: -moz-linear-gradient(
+    130deg,
+    rgba(42, 33, 237, 1) 0%,
+    rgba(22, 14, 170, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    130deg,
+    rgba(42, 33, 237, 1) 0%,
+    rgba(22, 14, 170, 1) 100%
+  );
+  background: linear-gradient(
+    130deg,
+    rgba(42, 33, 237, 1) 0%,
+    rgba(22, 14, 170, 1) 100%
+  );
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#2a21ed",endColorstr="#160eaa",GradientType=1);
   -webkit-box-shadow: 5px 5px 10px 4px rgba(22, 14, 170, 0.22);
   box-shadow: 5px 5px 10px 4px rgba(22, 14, 170, 0.22);
@@ -336,9 +360,21 @@ img {
 .footer {
   color: #fff;
   background: rgb(42, 33, 237);
-  background: -moz-linear-gradient(130deg, rgba(42, 33, 237, 1) 0%, rgba(22, 14, 170, 1) 100%);
-  background: -webkit-linear-gradient(130deg, rgba(42, 33, 237, 1) 0%, rgba(22, 14, 170, 1) 100%);
-  background: linear-gradient(130deg, rgba(42, 33, 237, 1) 0%, rgba(22, 14, 170, 1) 100%);
+  background: -moz-linear-gradient(
+    130deg,
+    rgba(42, 33, 237, 1) 0%,
+    rgba(22, 14, 170, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    130deg,
+    rgba(42, 33, 237, 1) 0%,
+    rgba(22, 14, 170, 1) 100%
+  );
+  background: linear-gradient(
+    130deg,
+    rgba(42, 33, 237, 1) 0%,
+    rgba(22, 14, 170, 1) 100%
+  );
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#2a21ed",endColorstr="#160eaa",GradientType=1);
   padding: 5rem 9rem;
   display: flex;
