@@ -132,14 +132,12 @@ img {
   padding: 5.5rem 0 5.5rem 9rem;
 }
 .title-and-arrows {
-  /* background-color: green; */
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   margin-right: 9rem;
 }
 .project-navigation {
-  /* background-color: red; */
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -149,6 +147,11 @@ img {
 .project-navigation__arrow {
   padding: 0.6rem;
   cursor: pointer;
+  transition: all ease-in-out 0.2s;
+}
+.project-navigation__arrow:hover {
+  transform: scale(1.1);
+  filter: drop-shadow(0.12rem 0.12rem 0.1rem #4e48b954);
 }
 .projects__container {
   width: 100%;
