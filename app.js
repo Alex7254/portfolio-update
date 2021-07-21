@@ -5,4 +5,4 @@ const workExperienceCard = document.querySelectorAll('.work-experience__card');
 buttonRight.onclick = () => document.getElementById('projects-container').scrollLeft += 950;
 buttonLeft.onclick = () => document.getElementById('projects-container').scrollLeft -= 950;
 // Work Experience Card expanding function
-console.log(workExperienceCard.length); 
+console.log(workExperienceCard); 
