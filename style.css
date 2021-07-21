@@ -146,8 +146,9 @@ img {
   justify-content: space-between;
   width: 6rem;
 }
-.left-arrow, .right-arrow {
-  background-color: var(--yellow);
+.project-navigation__arrow {
+  padding: 0.6rem;
+  cursor: pointer;
 }
 .projects__container {
   width: 100%;
