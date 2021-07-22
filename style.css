@@ -230,7 +230,7 @@ img {
   width: 50.125rem;
   padding: 1rem;
 }
-.work-experience__card_collapsed {
+.work-experience__card {
   border: solid 1px#ececec;
   display: flex;
   flex-direction: column;
