@@ -228,7 +228,9 @@ img {
 .work-experience__cards {
   overflow-y: auto;
   width: 50.125rem;
-  padding: 1rem;
+  padding: 0 1rem;
+  height: 21.125rem;
+  /* background-color: red; */
 }
 .work-experience__card {
   border: solid 1px#ececec;
