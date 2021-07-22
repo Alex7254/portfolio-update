@@ -14,12 +14,9 @@ for (let i = 0, n = workExperienceCard.length; i < n; ++i) {
     // Get text inside of work experience card
     var content = this.children[1];
     // Toggle text inside of work experience card
-    if (content.style.display === "block") {
-      content.style.display = "none";
-    } else {
-      content.style.display = "block";
-    }
+    content.style.display === "block"
+      ? (content.style.display = "none")
+      : (content.style.display = "block");
   });
 }
-projects.lastElementChild.style = "margin-right:0;"
-console.log(projects.children.length)
+projects.lastElementChild.style = "margin-right:0;";
