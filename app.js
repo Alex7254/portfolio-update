@@ -1,8 +1,20 @@
-const buttonRight = document.getElementById('arrow-right');
-const buttonLeft = document.getElementById('arrow-left');
-const workExperienceCard = document.querySelectorAll('.work-experience__card');
+const buttonRight = document.getElementById("arrow-right");
+const buttonLeft = document.getElementById("arrow-left");
+const workExperienceCard = document.querySelectorAll(".work-experience__card");
 // Navigation arrows for projects section
-buttonRight.onclick = () => document.getElementById('projects-container').scrollLeft += 950;
-buttonLeft.onclick = () => document.getElementById('projects-container').scrollLeft -= 950;
+buttonRight.onclick = () =>
+  (document.getElementById("projects-container").scrollLeft += 950);
+buttonLeft.onclick = () =>
+  (document.getElementById("projects-container").scrollLeft -= 950);
 // Work Experience Card expanding function
-console.log(workExperienceCard); 
+for (let i = 0, n = workExperienceCard.length; i < n; ++i) {
+  workExperienceCard[i].addEventListener("click", function () {
+    this.classList.toggle("work-experience__card_expanded");
+    // var content = this.nextElementSibling;
+    // if (content.style.display === "block") {
+    //   content.style.display = "none";
+    // } else {
+    //   content.style.display = "block";
+    // }
+  });
+}
