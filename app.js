@@ -1,11 +1,12 @@
 const buttonRight = document.getElementById("arrow-right");
 const buttonLeft = document.getElementById("arrow-left");
 const workExperienceCard = document.querySelectorAll(".work-experience__card");
+const projects = document.querySelector(".projects__container");
 // Navigation arrows functions for projects section
 buttonRight.onclick = () =>
-  (document.getElementById("projects-container").scrollLeft += 950);
+  (document.getElementById("projects-container").scrollLeft += 966);
 buttonLeft.onclick = () =>
-  (document.getElementById("projects-container").scrollLeft -= 950);
+  (document.getElementById("projects-container").scrollLeft -= 966);
 // Work Experience Card expanding function
 for (let i = 0, n = workExperienceCard.length; i < n; ++i) {
   workExperienceCard[i].addEventListener("click", function () {
@@ -20,3 +21,5 @@ for (let i = 0, n = workExperienceCard.length; i < n; ++i) {
     }
   });
 }
+projects.lastElementChild.style = "margin-right:0;"
+console.log(projects.children.length)
