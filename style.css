@@ -406,16 +406,20 @@ img {
 }
 /* MEDIA QUERIES */
 /* Extra small devices (phones, 500px and down) */
-@media only screen and (max-width: 500px) {}
+@media only screen and (max-width: 500px) {
+}
 
 /* Small devices (portrait tablets and large phones, 500px and up) */
-@media only screen and (min-width: 500px) {}
+@media only screen and (min-width: 500px) {
+}
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {}
+@media only screen and (min-width: 768px) {
+}
 
 /* Large devices less than 992px */
-@media only screen and (min-width: 992px) {}
+@media only screen and (min-width: 992px) {
+}
 
 /* Extra large devices less than 1805px) */
 @media only screen and (max-width: 1685px) {
