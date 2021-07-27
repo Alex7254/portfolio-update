@@ -151,8 +151,8 @@ img {
   transition: all ease-in-out 0.2s;
 }
 .project-navigation__arrow:hover {
-  transform: scale(1.1);
-  filter: drop-shadow(0.12rem 0.12rem 0.1rem #4e48b954);
+  transform: scale(1.3);
+  /* filter: drop-shadow(0.12rem 0.12rem 0.1rem #4e48b954); */
 }
 .projects__container {
   width: 100%;
