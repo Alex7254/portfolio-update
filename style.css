@@ -307,7 +307,6 @@ img {
   flex-wrap: nowrap;
   justify-content: space-between;
   align-items: center;
-  /* background-color: red; */
 }
 .first-card {
   align-self: flex-start;
@@ -444,8 +443,6 @@ img {
     display: block;
   }
   .last-card {
-    /* align-self: center;
-    justify-self: center; */
     margin-top:  3rem;
   }
   .technical-skills__card {
