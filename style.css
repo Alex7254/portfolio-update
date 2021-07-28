@@ -59,6 +59,13 @@ img {
   font-size: 2.25rem;
   color: var(--light-blue);
 }
+/* Subtitle */
+.subtitle {
+  font-size: 1.5rem;
+  font-weight: bold;
+  letter-spacing: 0.094rem;
+  color: var(--light-blue);
+}
 /* Button Styles */
 .btn {
   border: none;
@@ -231,7 +238,6 @@ img {
   width: 50.125rem;
   padding: 0 1rem;
   height: 21.125rem;
-  /* background-color: red; */
 }
 .work-experience__card {
   border: solid 1px#ececec;
@@ -352,7 +358,7 @@ img {
   -webkit-box-shadow: 5px 5px 10px 4px rgba(22, 14, 170, 0.22);
   box-shadow: 5px 5px 10px 4px rgba(22, 14, 170, 0.22);
 }
-.technical-skills__card:hover .technical-skills__card-text {
+.technical-skills__card:hover .subtitle {
   color: #fff;
 }
 .technical-skills__card-img {
