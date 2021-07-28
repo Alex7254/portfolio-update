@@ -430,7 +430,7 @@ img {
 /* Large devices less than 992px */
 @media only screen and (max-width: 1345px) {
   .technical-skills__container {
-    height: 38rem;
+    height: auto;
     margin: 5rem 0;
     display: flex;
     flex-direction: column;
@@ -448,7 +448,9 @@ img {
   .first-card {
     align-self: auto;
   }
-  
+  .middle-card {
+    margin: 3rem 0;
+  }
   .last-card {
     align-self: auto;
   }
