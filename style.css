@@ -441,12 +441,6 @@ img {
     align-items: center;
     background-color: red;
   } */
-  .first-card {
-    display: block;
-  }
-  .last-card {
-    margin-top:  3rem;
-  }
   .technical-skills__card { 
     padding: 3rem;
     height: 22.5rem;
