@@ -330,12 +330,14 @@ img {
   flex-wrap: nowrap;
   border-radius: 0.7rem;
   padding: 3rem;
-  height: 27.5rem;
+  height: 32.5rem;
   width: 26.25rem;
   border: solid 1px#ececec;
+  background-color: #fff;
   color: var(--light-blue);
   cursor: default;
 }
+
 .technical-skills__card:hover {
   color: #fff;
   background: rgb(42, 33, 237);
@@ -423,8 +425,7 @@ img {
     height: 30rem;
   }
   .technical-skills__card {
-    padding: 3rem;
-    height: 22.5rem;
+    height: 30.5rem;
     width: 21.25rem;
   }
 }
@@ -445,7 +446,7 @@ img {
     flex-direction: row;
     justify-content: space-around;
   }
- 
+
   .technical-skills__card-text {
     text-align: left;
     width: 25rem;
@@ -464,12 +465,11 @@ img {
 }
 /* Extra small devices (phones, 500px and down) */
 @media only screen and (max-width: 940px) {
-
   .technical-skills__card {
     display: flex;
     justify-content: space-evenly;
-    flex-direction: column; 
-    height: 27.5rem;
+    flex-direction: column;
+    height: 32.5rem;
     width: 26.25rem;
   }
   .technical-skills__card-text {
