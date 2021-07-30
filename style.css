@@ -370,7 +370,8 @@ img {
 }
 .technical-skills__card-text {
   color: var(--blue-grey);
-  line-height: 1.563rem;
+  line-height: 1.8rem;
+  letter-spacing: 0.094rem;
 }
 
 /* Footer Styles */
@@ -440,10 +441,17 @@ img {
     /* background-color: red; */
   }
   .technical-skills__card {
-    padding: 3rem;
-    height: 22.5rem;
+    height: 20.5rem;
     width: 100%;
     flex-direction: row;
+    justify-content: space-around;
+  }
+ 
+  .technical-skills__card-text {
+    text-align: left;
+    width: 25rem;
+    font-size: 1.2rem;
+    margin-left: 2.6rem;
   }
   .first-card {
     align-self: auto;
@@ -456,7 +464,21 @@ img {
   }
 }
 /* Extra small devices (phones, 500px and down) */
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 940px) {
+
+  .technical-skills__card {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column; 
+    height: 27.5rem;
+    width: 26.25rem;
+  }
+  .technical-skills__card-text {
+    text-align: center;
+    width: auto;
+    font-size: 1.2rem;
+    margin-left: 0;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 500px and up) */
