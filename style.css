@@ -53,7 +53,7 @@ img {
 .yellow-background {
   background: linear-gradient(0deg, #f4d45e62 50%, #00ffff00 50%);
 }
-.section-poadding {
+.section-padding {
   padding: 12.5rem 9rem;
 }
 /* Section Title Styles */
@@ -100,7 +100,8 @@ img {
   justify-content: space-between;
   flex-direction: row;
   flex-wrap: nowrap;
-  padding: 4.2rem 9rem;
+  padding-top: 4.2rem;
+  padding-bottom: 4.2rem;
 }
 .logo {
   height: 3.2rem;
@@ -222,9 +223,6 @@ img {
 }
 
 /* Work Experience Styles */
-.work-experience {
-  padding: 12.5rem 9rem;
-}
 .work-experience__container {
   display: flex;
   justify-content: space-between;
@@ -307,9 +305,6 @@ img {
 }
 
 /* Technical Skills Styles */
-.technical-skills {
-  padding: 12.5rem 9rem;
-}
 .technical-skills__container {
   height: 38rem;
   display: flex;
@@ -397,7 +392,8 @@ img {
     rgba(22, 14, 170, 1) 100%
   );
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#2a21ed",endColorstr="#160eaa",GradientType=1);
-  padding: 5rem 9rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
   display: flex;
   justify-content: space-between;
   flex-wrap: nowrap;
