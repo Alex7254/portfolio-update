@@ -119,7 +119,7 @@ img {
   flex-direction: row;
   flex-wrap: nowrap;
   height: 75vh;
-  padding: 0 9rem;
+  padding: 12.5rem 9rem;
 }
 .hero__left-side {
   color: var(--light-blue);
@@ -137,7 +137,7 @@ img {
 
 /* Projects Styles */
 .projects {
-  padding: 5.5rem 0 5.5rem 9rem;
+  padding: 12.5rem 0 12.5rem 9rem;
 }
 .title-and-arrows {
   display: flex;
@@ -219,7 +219,7 @@ img {
 
 /* Work Experience Styles */
 .work-experience {
-  padding: 5.5rem 9rem;
+  padding: 12.5rem 9rem;
 }
 .work-experience__container {
   padding: 4rem 0;
@@ -304,7 +304,7 @@ img {
 
 /* Technical Skills Styles */
 .technical-skills {
-  padding: 5.5rem 9rem;
+  padding: 12.5rem 9rem;
 }
 .technical-skills__container {
   height: 38rem;
