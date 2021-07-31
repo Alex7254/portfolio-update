@@ -248,6 +248,7 @@ img {
   color: var(--light-blue);
   border-radius: 0.7rem;
   margin-bottom: 1rem;
+  cursor: pointer;
 }
 .work-experience__card_expanded {
   margin-bottom: 1rem;
