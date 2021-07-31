@@ -58,6 +58,7 @@ img {
 .section-title {
   font-size: 2.25rem;
   color: var(--light-blue);
+  margin-bottom: 5rem;
 }
 /* Subtitle */
 .subtitle {
@@ -162,7 +163,6 @@ img {
 }
 .projects__container {
   width: 100%;
-  padding: 4rem 0;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -222,7 +222,6 @@ img {
   padding: 12.5rem 9rem;
 }
 .work-experience__container {
-  padding: 4rem 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -308,7 +307,6 @@ img {
 }
 .technical-skills__container {
   height: 38rem;
-  margin: 5rem 0;
   display: flex;
   flex-wrap: nowrap;
   justify-content: space-between;
@@ -337,7 +335,6 @@ img {
   color: var(--light-blue);
   cursor: default;
 }
-
 .technical-skills__card:hover {
   color: #fff;
   background: rgb(42, 33, 237);
