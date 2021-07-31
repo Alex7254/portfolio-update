@@ -59,6 +59,7 @@ img {
   font-size: 2.25rem;
   color: var(--light-blue);
   margin-bottom: 5rem;
+  cursor: default;
 }
 /* Subtitle */
 .subtitle {
@@ -66,6 +67,7 @@ img {
   font-weight: bold;
   letter-spacing: 0.094rem;
   color: var(--light-blue);
+  cursor: default;
 }
 /* Button Styles */
 .btn {
@@ -190,6 +192,7 @@ img {
   flex-direction: row;
   flex-wrap: nowrap;
   overflow: hidden;
+  cursor: default;
 }
 .project__img {
   height: 36.875rem;
