@@ -245,7 +245,7 @@ img {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 9.063rem;
+  height: auto;
   padding: 3rem;
   color: var(--light-blue);
   border-radius: 0.7rem;
@@ -257,7 +257,7 @@ img {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 21.125rem;
+  /* height: 21.125rem; */
   padding: 3rem;
   color: #fff;
   border-radius: 0.7rem;
@@ -281,6 +281,9 @@ img {
   -webkit-box-shadow: 5px 5px 10px 4px rgba(22, 14, 170, 0.22);
   box-shadow: 5px 5px 10px 4px rgba(22, 14, 170, 0.22);
 }
+.work-experience__card_expanded .work-experience__date {
+  margin: 1.5rem 0;
+}
 .work-experience__card-header {
   display: flex;
   justify-content: space-between;
@@ -293,7 +296,7 @@ img {
 }
 .work-experience__date {
   opacity: 0.75;
-  margin-top: 1rem;
+  margin: 1.5rem 0 0 0;
 }
 .work-experience__card-text {
   opacity: 0.75;
