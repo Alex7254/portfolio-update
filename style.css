@@ -373,7 +373,6 @@ img {
 .technical-skills__card-text {
   color: var(--blue-grey);
   line-height: 1.8rem;
-  letter-spacing: 0.094rem;
 }
 
 /* Footer Styles */
@@ -419,7 +418,6 @@ img {
   .hero__header {
     font-size: 1.95rem;
     line-height: 3rem;
-    letter-spacing: 0.094rem;
   }
   .hero__img {
     height: 30rem;
