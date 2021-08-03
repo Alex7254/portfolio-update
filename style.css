@@ -53,8 +53,21 @@ img {
 .yellow-background {
   background: linear-gradient(0deg, #f4d45e62 50%, #00ffff00 50%);
 }
+/* Used for padding on sections */
 .section-padding {
-  padding: 12.5rem 9rem;
+  padding-top: 12.5rem;
+  padding-bottom: 12.5rem;
+  padding-right: 9rem;
+  padding-left: 9rem;
+}
+/* Section Padding for Header */
+.section-padding.header {
+  padding-top: 4.2rem;
+  padding-bottom: 4.2rem;
+}
+/* Section Padding for Projects Section */
+.section-padding.projects {
+  padding-right: 0;
 }
 /* Section Title Styles */
 .section-title {
@@ -100,8 +113,6 @@ img {
   justify-content: space-between;
   flex-direction: row;
   flex-wrap: nowrap;
-  padding-top: 4.2rem;
-  padding-bottom: 4.2rem;
 }
 .logo {
   height: 3.2rem;
@@ -141,9 +152,6 @@ img {
 }
 
 /* Projects Styles */
-.projects {
-  padding-right: 0;
-}
 .title-and-arrows {
   display: flex;
   flex-direction: row;
