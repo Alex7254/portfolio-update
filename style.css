@@ -495,9 +495,19 @@ img {
   .section-padding {
     padding: 12.5rem 3.7rem;
   }
+  .hero {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: auto;
+    text-align: center;
+  }
   /* Hero */
   .hero__img {
-    display: none;
+    /* display: none; */
   }
   /* Technical Skills */
   .technical-skills__card {
