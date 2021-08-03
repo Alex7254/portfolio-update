@@ -414,7 +414,7 @@ img {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#2a21ed",endColorstr="#160eaa",GradientType=1);
   display: flex;
   justify-content: space-between;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
 }
 .footer__menu {
   margin-top: 2rem;
