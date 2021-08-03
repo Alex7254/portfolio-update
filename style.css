@@ -162,6 +162,7 @@ img {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
   margin-right: 9rem;
 }
 .project-navigation {
@@ -435,7 +436,7 @@ img {
     font-size: 1.95rem;
     line-height: 3rem;
   }
-  .hero__img {
+  .hero__img, .work-experience__img {
     height: 30rem;
   }
   .technical-skills__card {
@@ -449,7 +450,7 @@ img {
     padding: 12.5rem 6.7rem;
   }
   /* Hero */
-  .hero__img {
+  .hero__img, .work-experience__img {
     height: 26.4rem;
   }
   .hero__header {
@@ -503,10 +504,6 @@ img {
     flex-wrap: nowrap;
     height: auto;
     text-align: center;
-  }
-  /* Hero */
-  .hero__img {
-    /* display: none; */
   }
   /* Technical Skills */
   .technical-skills__card {
