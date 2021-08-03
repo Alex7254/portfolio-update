@@ -433,9 +433,17 @@ img {
 }
 /* Large devices less than 992px */
 @media only screen and (max-width: 1345px) {
+  .section-padding {
+    padding: 12.5rem 7.7rem;
+  }
   /* Hero */
   .hero__img {
     height: 26.4rem;
+  }
+  .hero__header {
+    font-size: 1.75rem;
+    line-height: 3rem;
+    word-wrap: unset;
   }
   /* Technical Skills */
   .technical-skills__container {
@@ -471,6 +479,10 @@ img {
 }
 /* Extra small devices (phones, 500px and down) */
 @media only screen and (max-width: 940px) {
+  /* Section Padding */
+  .section-padding {
+    padding: 12.5rem 5.7rem;
+  }
   /* Hero */
   .hero__img {
     display: none;
