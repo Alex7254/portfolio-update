@@ -497,9 +497,8 @@ img {
   }
   .hero {
     display: flex;
-    /* justify-content: space-between; */
+    justify-content: space-between;
     align-items: center;
-    justify-content: center;
     flex-direction: column;
     flex-wrap: nowrap;
     height: auto;
