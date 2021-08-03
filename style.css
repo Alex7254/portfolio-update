@@ -529,7 +529,7 @@ img {
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (max-width: 350px) {
+@media only screen and (max-width: 500px) {
   .header {
     display: flex;
     justify-content: space-between;
