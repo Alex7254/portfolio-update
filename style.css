@@ -498,24 +498,21 @@ img {
   .section-padding {
     padding: 12.5rem 3.7rem;
   }
+  /* Hero Section */
   .hero {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     flex-wrap: nowrap;
     height: 50rem;
-    /* background-color: palegoldenrod; */
-    /* flex-grow: 0; */
   }
   .hero__left-side {
     max-width: 80%;
-    /* background-color: green; */
     text-align: center;
   }
   .hero__header {
     font-size: 2.375rem;
     margin-right: 0;
-    /* background-color: red; */
   }
   .hero__img {
     margin-top: 6.2rem;
