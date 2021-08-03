@@ -436,7 +436,8 @@ img {
     font-size: 1.95rem;
     line-height: 3rem;
   }
-  .hero__img, .work-experience__img {
+  .hero__img,
+  .work-experience__img {
     height: 30rem;
   }
   .technical-skills__card {
@@ -450,7 +451,8 @@ img {
     padding: 12.5rem 6.7rem;
   }
   /* Hero */
-  .hero__img, .work-experience__img {
+  .hero__img,
+  .work-experience__img {
     height: 26.4rem;
   }
   .hero__header {
