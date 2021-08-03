@@ -69,6 +69,12 @@ img {
 .section-padding.projects {
   padding-right: 0;
 }
+/* Section Padding for Projects Section */
+.section-padding.footer {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
 /* Section Title Styles */
 .section-title {
   font-size: 2.25rem;
@@ -406,8 +412,6 @@ img {
     rgba(22, 14, 170, 1) 100%
   );
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#2a21ed",endColorstr="#160eaa",GradientType=1);
-  padding-top: 5rem;
-  padding-bottom: 5rem;
   display: flex;
   justify-content: space-between;
   flex-wrap: nowrap;
