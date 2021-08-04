@@ -172,6 +172,7 @@ img {
   align-items: center;
   justify-content: space-between;
   width: 6rem;
+  margin-bottom: 5rem;
 }
 .project-navigation__arrow {
   padding: 0.6rem;
@@ -563,5 +564,9 @@ img {
     flex-direction: row;
     flex-wrap: nowrap;
     width: 22rem;
+  }
+  /* Projects */
+  .title-and-arrows {
+    margin-right: 0;
   }
 }
