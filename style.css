@@ -194,7 +194,7 @@ img {
   -webkit-overflow-scrolling: touch;
   scroll-behavior: smooth;
 }
-.projects__container::-webkit-scrollbar {
+.projects__container::-webkit-scrollbar,.work-experience__cards::-webkit-scrollbar {
   /* WebKit */
   display: none;
   width: 0;
