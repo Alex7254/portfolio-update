@@ -575,6 +575,18 @@ img {
     flex-wrap: nowrap;
     width: 22rem;
   }
+  .hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    height: 27rem;
+  }
+  .hero__img,
+  .work-experience__img {
+    display: none;
+  }
   /* Projects */
   .title-and-arrows {
     margin-right: 0;
