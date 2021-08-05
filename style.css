@@ -528,7 +528,6 @@ img {
     justify-content: space-evenly;
     flex-direction: column;
     height: 32.5rem;
-    width: 26.25rem;
   }
   .technical-skills__card-text {
     text-align: center;
