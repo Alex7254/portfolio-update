@@ -171,11 +171,12 @@ img {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  width: 6rem;
+  width: 3.4rem;
   margin-bottom: 5rem;
 }
 .project-navigation__arrow {
-  padding: 0.6rem;
+  width: 1.125rem;
+  height: 1.125rem;
   cursor: pointer;
   transition: all ease-in-out 0.2s;
 }
