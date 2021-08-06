@@ -150,7 +150,7 @@ img {
 }
 .hero__header {
   font-size: 2.375rem;
-  line-height: 3rem;
+  line-height: 2.5rem;
   letter-spacing: 0.094rem;
   margin-right: 1rem;
 }
@@ -438,7 +438,6 @@ img {
 @media only screen and (max-width: 1570px) {
   .hero__header {
     font-size: 1.95rem;
-    line-height: 3rem;
   }
   .hero__img,
   .work-experience__img {
@@ -461,8 +460,6 @@ img {
   }
   .hero__header {
     font-size: 1.75rem;
-    line-height: 3rem;
-    word-wrap: unset;
   }
   /* Technical Skills */
   .technical-skills__container {
@@ -502,8 +499,11 @@ img {
   .section-padding {
     padding: 12.5rem 3.7rem;
   }
+  .hero__header {
+    font-size: 1.25rem;
+  }
   /* Hero Section */
-  .hero {
+  /* .hero {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -513,15 +513,15 @@ img {
   .hero__left-side {
     max-width: 90%;
     text-align: center;
-  }
-  .hero__header {
+  } */
+  /* .hero__header {
     font-size: 2.375rem;
     margin-right: 0;
   }
   .hero__img {
     margin-top: 6.2rem;
     height: 22rem;
-  }
+  } */
   /* Technical Skills */
   .technical-skills__card {
     display: flex;
@@ -542,7 +542,7 @@ img {
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (max-width: 503px) {
+@media only screen and (max-width: 530px) {
   .section-padding {
     padding: 12.5rem 1.7rem;
   }
