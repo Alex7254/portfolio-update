@@ -282,7 +282,6 @@ img {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  /* height: 21.125rem; */
   padding: 3rem;
   color: #fff;
   border-radius: 0.7rem;
