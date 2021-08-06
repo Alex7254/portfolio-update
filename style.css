@@ -315,19 +315,18 @@ img {
   flex-direction: row;
   flex-wrap: nowrap;
 }
-.work-experience__card-title {
+.work-experience__card-title,.work-experience__card-title--light {
   font-size: 1.5rem;
   letter-spacing: 0.094rem;
+  font-weight: 600;
 }
 .work-experience__card-title--light {
-  font-size: 1.3rem;
-  letter-spacing: 0.094rem;
-  font-weight: 400;
+  font-weight: 500;
 }
 .work-experience__date {
-  /* color: var(--blue-grey); */
-  opacity: 0.5;
+  opacity: 0.75;
   margin: 1.5rem 0 0 0;
+  float: right;
 }
 .work-experience__card-text {
   font-weight: 300;
@@ -400,7 +399,7 @@ img {
 }
 .technical-skills__card-title {
   font-size: 1.5rem;
-  font-weight: bold;
+  font-weight: 300;
 }
 .technical-skills__card-text {
   color: var(--blue-grey);
