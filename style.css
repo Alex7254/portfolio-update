@@ -92,6 +92,11 @@ img {
   color: var(--light-blue);
   cursor: default;
 }
+/* Used for some body text */
+.blue-grey-text {
+  line-height: 1.8rem;
+  color: var(--blue-grey);
+}
 /* Button Styles */
 .btn {
   border: none;
@@ -240,8 +245,7 @@ img {
   font-size: 1.5rem;
 }
 .project__body-txt {
-  line-height: 1.8rem;
-  color: var(--blue-grey);
+  margin-top: 2rem;
 }
 
 /* Work Experience Styles */
