@@ -501,7 +501,8 @@ img {
     padding: 12.5rem 3.7rem;
   }
   .hero__header {
-    font-size: 1.25rem;
+    font-size: 1.7rem;
+    line-height: 2rem;
   }
   /* Hero Section */
   /* .hero {
