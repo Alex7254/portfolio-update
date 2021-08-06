@@ -82,11 +82,12 @@ img {
   color: var(--light-blue);
   margin-bottom: 5rem;
   cursor: default;
+  font-weight: 700;
 }
 /* Subtitle */
 .subtitle {
   font-size: 1.5rem;
-  font-weight: bold;
+  font-weight: 600;
   letter-spacing: 0.094rem;
   color: var(--light-blue);
   cursor: default;
