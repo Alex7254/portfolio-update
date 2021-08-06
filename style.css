@@ -131,6 +131,7 @@ img {
   flex-direction: row;
   flex-wrap: nowrap;
   width: 27rem;
+  font-weight: 300;
 }
 .nav__item {
   color: var(--light-blue);
