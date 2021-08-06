@@ -78,6 +78,7 @@ img {
 /* Section Title Styles */
 .section-title {
   font-size: 2.25rem;
+  letter-spacing: 0.094rem;
   color: var(--light-blue);
   margin-bottom: 5rem;
   cursor: default;
