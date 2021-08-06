@@ -522,6 +522,9 @@ img {
     margin-top: 6.2rem;
     height: 22rem;
   } */
+  .work-experience__img {
+    display: none;
+  }
   /* Technical Skills */
   .technical-skills__card {
     display: flex;
