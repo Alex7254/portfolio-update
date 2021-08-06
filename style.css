@@ -400,14 +400,6 @@ img {
 .technical-skills__card-img {
   height: 6.2rem;
 }
-.technical-skills__card-title {
-  font-size: 1.5rem;
-  font-weight: 300;
-}
-.technical-skills__card-text {
-  color: var(--blue-grey);
-  line-height: 1.8rem;
-}
 
 /* Footer Styles */
 .footer {
