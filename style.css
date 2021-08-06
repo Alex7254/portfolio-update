@@ -225,7 +225,7 @@ img {
   border-top-left-radius: 1rem;
   border-bottom-left-radius: 1rem;
 }
-.project__info {
+.project__body {
   padding: 0 2.6rem;
   width: 39.5rem;
   background-color: #fff;
@@ -235,11 +235,11 @@ img {
   flex-direction: column;
   flex-wrap: nowrap;
 }
-.project__info-title {
+.project__body-title {
   color: var(--light-blue);
   font-size: 1.5rem;
 }
-.project__info-txt {
+.project__body-txt {
   line-height: 1.8rem;
   color: var(--blue-grey);
 }
