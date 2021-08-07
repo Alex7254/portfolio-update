@@ -601,4 +601,7 @@ img {
   .title-and-arrows {
     margin-right: 0;
   }
+  .project-navigation {
+    display: none;
+  }
 }
