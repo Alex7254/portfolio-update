@@ -484,7 +484,7 @@ img {
   .technical-skills__card-text {
     text-align: left;
     width: 25rem;
-    font-size: 1.2rem;
+    /* font-size: 1.2rem; */
     margin-left: 2.6rem;
   }
   .first-card {
@@ -511,18 +511,7 @@ img {
     display: none;
   }
   /* Technical Skills */
-  .technical-skills__card {
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: column;
-    height: 32.5rem;
-  }
-  .technical-skills__card-text {
-    text-align: center;
-    width: auto;
-    font-size: 1.2rem;
-    margin-left: 0;
-  }
+  
 }
 
 /* Small devices (portrait tablets and large phones, 500px and up) */
@@ -582,7 +571,15 @@ img {
     margin-right: 0;
   }
   /* Technical Skills */
+  .technical-skills__card {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 27.5rem;
+  }
   .technical-skills__card-text {
-    font-size: 1rem;
+    text-align: center;
+    width: auto;
+    margin-left: 0;
   }
 }
