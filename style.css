@@ -324,12 +324,13 @@ img {
   font-weight: 600;
 }
 .work-experience__card-title--light {
-  font-weight: 500;
+  /* font-weight: 500; */
+  /* font-size: 1rem; */
 }
 .work-experience__date {
   opacity: 0.75;
-  margin: 1.5rem 0 0 0;
-  float: right;
+  font-size: 0.9rem;
+  margin: .5rem 0 0 0;
 }
 .work-experience__card-text {
   font-weight: 300;
