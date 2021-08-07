@@ -515,7 +515,9 @@ img {
   .work-experience__img {
     display: none;
   }
-  /* Technical Skills */
+  .social {
+    margin: 0 2rem;
+  }
   
 }
 
@@ -586,5 +588,11 @@ img {
     text-align: center;
     width: auto;
     margin-left: 0;
+  }
+  .social {
+    margin: 0;
+  }
+  .contact {
+    margin-top: 2.5rem;
   }
 }
