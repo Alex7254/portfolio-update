@@ -316,7 +316,7 @@ img {
   display: flex;
   justify-content: space-between;
   flex-direction: row;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
 }
 .work-experience__card-title,.work-experience__card-title--light {
   font-size: 1.5rem;
