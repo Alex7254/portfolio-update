@@ -577,6 +577,9 @@ img {
   .title-and-arrows {
     margin-right: 0;
   }
+  .project-navigation {
+    display: none
+  }
   /* Technical Skills */
   .technical-skills__card {
     display: flex;
