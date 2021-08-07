@@ -426,7 +426,7 @@ img {
   flex-wrap: wrap;
 }
 .footer__menu {
-  margin-top: 2rem;
+  margin-top: 1.2rem;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -435,7 +435,7 @@ img {
 .footer__menu-link {
   color: #fff;
   display: inline-block;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
 }
 /* MEDIA QUERIES */
 /* Extra large devices less than 1550px) */
