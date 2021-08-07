@@ -581,4 +581,8 @@ img {
   .title-and-arrows {
     margin-right: 0;
   }
+  /* Technical Skills */
+  .technical-skills__card-text {
+    font-size: 1rem;
+  }
 }
