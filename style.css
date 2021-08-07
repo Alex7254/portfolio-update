@@ -569,6 +569,10 @@ img {
     color: var(--light-blue);
     width: 90%;
   }
+  .hero__header {
+    font-size: 2.2rem;
+    line-height: 2.5rem;
+  }
   .hero__img,
   .work-experience__img {
     display: none;
