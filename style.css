@@ -507,26 +507,6 @@ img {
     font-size: 1.65rem;
     line-height: 2rem;
   }
-  /* Hero Section */
-  /* .hero {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    flex-wrap: nowrap;
-    height: 50rem;
-  }
-  .hero__left-side {
-    max-width: 90%;
-    text-align: center;
-  } */
-  /* .hero__header {
-    font-size: 2.375rem;
-    margin-right: 0;
-  }
-  .hero__img {
-    margin-top: 6.2rem;
-    height: 22rem;
-  } */
   .work-experience__img {
     display: none;
   }
@@ -600,8 +580,5 @@ img {
   /* Projects */
   .title-and-arrows {
     margin-right: 0;
-  }
-  .project-navigation {
-    display: none;
   }
 }
