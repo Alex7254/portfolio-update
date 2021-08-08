@@ -213,6 +213,7 @@ img {
 .project {
   flex-shrink: 0;
   border: solid 1px#ececec;
+  background-color: #fff;
   margin-right: 1rem;
   height: 36.875rem;
   width: 59.375rem;
