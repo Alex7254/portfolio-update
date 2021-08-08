@@ -532,6 +532,13 @@ img {
   .section-padding {
     padding: 12.5rem 1.7rem;
   }
+  .section-padding.header {
+    padding-top: 2.2rem;
+    padding-bottom: 2.2rem;
+  }
+  .section-padding.projects {
+    padding-right: 1.7rem;
+  }
   .section-title {
     font-size: 2rem;
   }
@@ -541,10 +548,6 @@ img {
     flex-direction: column;
     align-items: center;
     flex-wrap: wrap;
-  }
-  .section-padding.header {
-    padding-top: 2.2rem;
-    padding-bottom: 2.2rem;
   }
   .logo {
     height: 3.2rem;
@@ -587,7 +590,6 @@ img {
     display: none;
   }
   .projects__container {
-    /* background-color: red; */
     width: 100%;
     display: flex;
     justify-content: center;
@@ -600,8 +602,8 @@ img {
     scroll-behavior: smooth;
   }
   .project {
-    flex-shrink: 0;
     border: solid 1px#ececec;
+    /* background-color: goldenrod; */
     margin-right: 0;
     height: 36.875rem;
     width: 100%;
