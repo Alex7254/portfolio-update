@@ -1,5 +1,5 @@
 /* Import Montserrat font */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
 :root {
   --dark-blue: #160eaa;
   --light-blue: #2a21ed;
@@ -203,7 +203,8 @@ img {
   -webkit-overflow-scrolling: touch;
   scroll-behavior: smooth;
 }
-.projects__container::-webkit-scrollbar,.work-experience__cards::-webkit-scrollbar {
+.projects__container::-webkit-scrollbar,
+.work-experience__cards::-webkit-scrollbar {
   /* WebKit */
   display: none;
   width: 0;
@@ -318,13 +319,14 @@ img {
   flex-direction: row;
   flex-wrap: wrap;
 }
-.work-experience__card-title,.work-experience__card-title--light {
+.work-experience__card-title,
+.work-experience__card-title--light {
   font-size: 1.5rem;
   letter-spacing: 0.094rem;
   font-weight: 600;
 }
 .work-experience__card-title--light {
-  font-weight: 400; 
+  font-weight: 400;
   font-size: 0.95rem;
   opacity: 0.55;
   margin-top: 0.4rem;
@@ -441,9 +443,7 @@ img {
   margin-bottom: 1rem;
 }
 
-
 /* ////////////////////////////////////////// */
-
 
 /* MEDIA QUERIES */
 /* Extra large devices less than 1550px) */
@@ -521,7 +521,6 @@ img {
   .social {
     margin: 0 2rem;
   }
-  
 }
 
 /* Small devices (portrait tablets and large phones, 500px and up) */
@@ -585,7 +584,51 @@ img {
     margin-right: 0;
   }
   .project-navigation {
-    display: none
+    display: none;
+  }
+  .projects__container {
+    /* background-color: red; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow-x: auto;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* Internet Explorer 10+ */
+    -webkit-overflow-scrolling: touch;
+    scroll-behavior: smooth;
+  }
+  .project {
+    flex-shrink: 0;
+    border: solid 1px#ececec;
+    margin-right: 0;
+    height: 36.875rem;
+    width: 100%;
+    border-radius: 0.7rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    cursor: default;
+  }
+  .project__img {
+    height: 10rem;
+    width: auto;
+    object-fit: cover;
+    object-position: top;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+  }
+  .project__body {
+    padding: 0 2.6rem;
+    width: auto;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: start;
+    flex-direction: column;
+    flex-wrap: nowrap;
   }
   /* Technical Skills */
   .technical-skills__card {
