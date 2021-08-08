@@ -449,13 +449,6 @@ img {
 /* MEDIA QUERIES */
 /* Extra large devices less than 1550px) */
 @media only screen and (max-width: 1570px) {
-  .hero__header {
-    font-size: 1.95rem;
-  }
-  .hero__img,
-  .work-experience__img {
-    height: 30rem;
-  }
   .technical-skills__card {
     height: 30.5rem;
     width: 21.25rem;
@@ -466,13 +459,16 @@ img {
   .section-padding {
     padding: 12.5rem 6.7rem;
   }
-  /* Hero */
-  .hero__img,
-  .work-experience__img {
-    height: 26.4rem;
-  }
-  .hero__header {
+  .section-title {
     font-size: 1.75rem;
+  }
+  /* Subtitle */
+  .subtitle {
+    font-size: 1.35rem;
+  }
+  /* Hero */
+  .hero__header {
+    font-size: 2rem;
   }
   /* Technical Skills */
   .technical-skills__container {
@@ -524,10 +520,6 @@ img {
   }
 }
 
-/* Small devices (portrait tablets and large phones, 500px and up) */
-@media only screen and (min-width: 500px) {
-}
-
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (max-width: 530px) {
   .section-padding {
@@ -539,13 +531,6 @@ img {
   }
   .section-padding.projects {
     padding-right: 1.7rem;
-  }
-  .section-title {
-    font-size: 1.75rem;
-  }
-  /* Subtitle */
-  .subtitle {
-    font-size: 1.35rem;
   }
   .header {
     display: flex;
