@@ -604,9 +604,8 @@ img {
   }
   .project {
     border: solid 1px#ececec;
-    /* background-color: goldenrod; */
     margin-right: 0;
-    height: 36.875rem;
+    height: auto;
     width: 100%;
     border-radius: 0.7rem;
     display: flex;
@@ -614,9 +613,10 @@ img {
     flex-wrap: nowrap;
     overflow: hidden;
     cursor: default;
+    margin-bottom: 1.5rem;
   }
   .project__img {
-    height: 10rem;
+    height: 18.6rem;
     width: auto;
     object-fit: cover;
     object-position: top;
@@ -624,7 +624,7 @@ img {
     border-bottom-left-radius: 1rem;
   }
   .project__body {
-    padding: 0 2.6rem;
+    padding: 2.6rem;
     width: auto;
     background-color: #fff;
     display: flex;
