@@ -541,7 +541,11 @@ img {
     padding-right: 1.7rem;
   }
   .section-title {
-    font-size: 2rem;
+    font-size: 1.75rem;
+  }
+  /* Subtitle */
+  .subtitle {
+    font-size: 1.35rem;
   }
   .header {
     display: flex;
