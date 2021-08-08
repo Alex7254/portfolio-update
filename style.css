@@ -637,6 +637,11 @@ img {
     flex-direction: column;
     flex-wrap: nowrap;
   }
+  /* Work Experience */
+  .work-experience__cards {
+    width: 100%;
+    padding: 1rem 0.85rem;
+  }
   /* Technical Skills */
   .technical-skills__card {
     display: flex;
