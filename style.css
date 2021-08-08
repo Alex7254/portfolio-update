@@ -531,7 +531,7 @@ img {
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (max-width: 530px) {
   .section-padding {
-    padding: 12.5rem 1.7rem;
+    padding: 7.5rem 1.7rem;
   }
   .section-padding.header {
     padding-top: 2.2rem;
