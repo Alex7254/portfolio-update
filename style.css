@@ -507,7 +507,13 @@ img {
 @media only screen and (max-width: 940px) {
   /* Section Padding */
   .section-padding {
-    padding: 12.5rem 3.7rem;
+    padding: 7.5rem;
+  }
+  .section-padding {
+    padding-top: 7.5rem;
+    padding-bottom: 7.5rem;
+    padding-right:  3.7rem;
+    padding-left:  3.7rem;
   }
   /* Nav */
   .nav__items {
