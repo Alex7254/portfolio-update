@@ -452,7 +452,7 @@ img {
     font-size: 1.75rem;
   }
   /* Subtitle */
-  .subtitle {
+  .subtitle,.work-experience__card-title {
     font-size: 1.35rem;
   }
   /* Hero */
