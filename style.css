@@ -526,6 +526,9 @@ img {
     font-size: 0.8rem;
   }
   /* Hero */
+  .hero {
+    height: 32.8rem;
+  }
   .hero__header {
     font-size: 1.78rem;
     line-height: 2rem;
