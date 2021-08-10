@@ -458,7 +458,7 @@ img {
 /* Large devices less than 992px */
 @media only screen and (max-width: 1345px) {
   .section-padding {
-    padding: 12.5rem 6.7rem;
+    padding: 10.5rem 6.7rem;
   }
   .section-title {
     font-size: 1.75rem;
