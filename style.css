@@ -468,6 +468,9 @@ img {
     font-size: 1.35rem;
   }
   /* Hero */
+  .hero {
+    height: 42.8rem;
+  }
   .hero__header {
     font-size: 2rem;
   }
