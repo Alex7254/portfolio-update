@@ -137,10 +137,12 @@ img {
   flex-direction: row;
   flex-wrap: nowrap;
   width: 27rem;
-  font-weight: 300;
 }
 .nav__item {
   color: var(--light-blue);
+  font-size: 0.9rem;
+  font-weight: 300;
+  letter-spacing: 0.094rem;
 }
 
 /* Hero section styles */
@@ -504,6 +506,13 @@ img {
 }
 /* Extra small devices (phones, 500px and down) */
 @media only screen and (max-width: 940px) {
+  /* Nav */
+  .nav__items {
+    width: 24rem;
+  }
+  .nav__item {
+    font-size: 0.8rem;
+  }
   /* Section Padding */
   .section-padding {
     padding: 12.5rem 3.7rem;
