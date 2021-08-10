@@ -505,6 +505,10 @@ img {
 }
 /* Extra small devices (phones, 500px and down) */
 @media only screen and (max-width: 940px) {
+  /* Section Padding */
+  .section-padding {
+    padding: 12.5rem 3.7rem;
+  }
   /* Nav */
   .nav__items {
     width: 24rem;
@@ -512,13 +516,21 @@ img {
   .nav__item {
     font-size: 0.8rem;
   }
-  /* Section Padding */
-  .section-padding {
-    padding: 12.5rem 3.7rem;
-  }
+  /* Hero */
   .hero__header {
     font-size: 1.78rem;
     line-height: 2rem;
+  }
+  /* Projects */
+  .project {
+    height: 30.875rem;
+    width: 59.375rem;
+  }
+  .project__img {
+    width: 26rem;
+  }
+  .project__body {
+    width: 36.5rem;
   }
   .work-experience__img {
     display: none;
