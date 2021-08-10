@@ -227,8 +227,7 @@ img {
   cursor: default;
 }
 .project__img {
-  height: 36.875rem;
-  width: 34rem;
+  width: 28rem;
   object-fit: cover;
   object-position: top;
   border-top-left-radius: 1rem;
