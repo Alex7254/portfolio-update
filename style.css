@@ -306,9 +306,6 @@ img {
   -webkit-box-shadow: 5px 5px 10px 4px rgba(22, 14, 170, 0.22);
   box-shadow: 5px 5px 10px 4px rgba(22, 14, 170, 0.22);
 }
-/* .work-experience__card_expanded .work-experience__date {
-  margin: 1.5rem 0;
-} */
 .work-experience__card-header {
   display: flex;
   justify-content: space-between;
@@ -338,9 +335,6 @@ img {
   line-height: 1.563rem;
   display: none;
 }
-/* .work-experience__card-text_collapsed {
-  display: none;
-} */
 
 /* Technical Skills Styles */
 .technical-skills__container {
