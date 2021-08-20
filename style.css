@@ -156,7 +156,7 @@ img {
 }
 .hero__left-side {
   color: var(--light-blue);
-  width: 42vw;
+  width: 46vw;
 }
 .hero__header {
   font-size: 2.375rem;
@@ -164,10 +164,21 @@ img {
   letter-spacing: 0.094rem;
   margin-right: 1rem;
 }
+.hero__img-container {
+  position: relative;
+}
 .hero__img {
   width: 29vw;
 }
-
+.hero__circle {
+  z-index: -1;
+  position: absolute;
+  display: inline;
+  left: 0;
+  bottom: 0;
+  width: 29vw;
+  height: 100%;
+}
 /* Projects Styles */
 .title-and-arrows {
   display: flex;
@@ -452,7 +463,8 @@ img {
     font-size: 1.75rem;
   }
   /* Subtitle */
-  .subtitle,.work-experience__card-title {
+  .subtitle,
+  .work-experience__card-title {
     font-size: 1.35rem;
   }
   /* Hero */
@@ -503,8 +515,8 @@ img {
   .section-padding {
     padding-top: 7.5rem;
     padding-bottom: 7.5rem;
-    padding-right:  3.7rem;
-    padding-left:  3.7rem;
+    padding-right: 3.7rem;
+    padding-left: 3.7rem;
   }
   /* Nav */
   .nav__items {
