@@ -358,7 +358,9 @@ img {
 .first-card {
   align-self: flex-start;
 }
-
+.middle-card {
+  margin: 0 1rem;
+}
 .last-card {
   align-self: flex-end;
 }
@@ -448,11 +450,11 @@ img {
 
 /* MEDIA QUERIES */
 /* Extra large devices less than 1550px) */
-@media only screen and (max-width: 1570px) {
-  .technical-skills__card {
+@media only screen and (max-width: 1440px) {
+  /* .technical-skills__card {
     height: 30.5rem;
     width: 21.25rem;
-  }
+  } */
 }
 /* Large devices less than 992px */
 @media only screen and (max-width: 1345px) {
