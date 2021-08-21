@@ -156,6 +156,7 @@ img {
   flex-direction: row;
   flex-wrap: nowrap;
   height: 48.8rem;
+  cursor: default;
 }
 .hero__left-side {
   color: var(--light-blue);
