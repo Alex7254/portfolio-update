@@ -52,6 +52,7 @@ img {
 /* Yellow Half Background */
 .yellow-background {
   background: linear-gradient(0deg, #f4d45e62 50%, #00ffff00 50%);
+  font-weight: 700;
 }
 /* Used for padding on sections */
 .section-padding {
@@ -162,9 +163,11 @@ img {
 }
 .hero__header {
   font-size: 2.375rem;
-  line-height: 2.5rem;
+  font-weight: 500;
+  line-height: 2.9rem;
   letter-spacing: 0.094rem;
   margin-right: 1rem;
+  text-shadow: 1px 3px 3px rgba(22,14,170,0.29);
 }
 .hero__img-container {
   position: relative;
