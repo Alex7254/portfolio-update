@@ -131,6 +131,7 @@ img {
 .logo {
   width: 2.5rem;
   height: 2.5rem;
+  margin-right: 2rem;
 }
 .nav__items {
   display: flex;
@@ -452,7 +453,6 @@ img {
 /* MEDIA QUERIES */
 /* Extra large devices less than 1550px) */
 @media only screen and (max-width: 1440px) {
-  
 }
 /* Large devices less than 992px */
 @media only screen and (max-width: 84.063rem) {
@@ -552,7 +552,7 @@ img {
   }
 }
 
-/* Medium devices (landscape tablets, 768px and up) */
+/* Medium devices (landscape tablets, below 350px) */
 @media only screen and (max-width: 33.125rem) {
   .section-padding {
     padding: 5.5rem 1.7rem;
@@ -574,6 +574,7 @@ img {
   .logo {
     height: 3.2rem;
     margin-bottom: 2rem;
+    margin-right: 0;
   }
   .nav__items {
     font-size: 0.9rem;
