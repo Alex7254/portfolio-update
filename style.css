@@ -51,9 +51,10 @@ img {
 
 /* Yellow Half Background */
 .yellow-background {
-  background: linear-gradient(0deg, #f4d45e62 50%, #00ffff00 50%);
+  background: linear-gradient(0deg, #f4d45e7a 50%, #00ffff00 50%);
   font-weight: 700;
 }
+
 /* Used for padding on sections */
 .section-padding {
   padding-top: 12.5rem;
