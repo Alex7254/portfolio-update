@@ -53,6 +53,7 @@ img {
 .yellow-background {
   background: linear-gradient(0deg, #f4d45e7a 50%, #00ffff00 50%);
   font-weight: 700;
+  text-shadow: 1px 3px 3px rgba(22,14,170,0.29);
 }
 
 /* Used for padding on sections */
