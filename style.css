@@ -128,9 +128,10 @@ img {
   flex-direction: row;
   flex-wrap: nowrap;
 }
-/* .logo {
-  height: 2.188rem;
-} */
+.logo {
+  width: 2.5rem;
+  height: 2.5rem;
+}
 .nav__items {
   display: flex;
   justify-content: space-between;
