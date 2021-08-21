@@ -129,7 +129,7 @@ img {
   flex-wrap: nowrap;
 }
 .logo {
-  height: 3.2rem;
+  /* height: 2.188rem; */
 }
 .nav__items {
   display: flex;
