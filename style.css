@@ -6,7 +6,7 @@
   --blue-grey: #7b7baf;
   --yellow: #f4d35e;
 }
-/* Global Styles */
+/* Reset Styling */
 * {
   margin: 0;
   padding: 0;
@@ -30,25 +30,18 @@ img {
   max-width: 100%;
   height: auto;
 }
-
-/* Scrollbar Styles */
-/* width */
-::-webkit-scrollbar {
-  width: 10px;
+/* Global Classes */
+.yellow-circle__container {
+  position: relative;
 }
-/* Track */
-::-webkit-scrollbar-track {
-  background: #f1f1f1;
+.yellow-circle__bg {
+  z-index: -1;
+  position: absolute;
+  display: inline;
+  left: 0;
+  bottom: 0;
+  height: 100%;
 }
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: rgb(167, 167, 167);
-}
-/* Handle hover */
-::-webkit-scrollbar-thumb:hover {
-  background: var(--yellow);
-}
-
 /* Yellow Half Background */
 .yellow-background {
   background: linear-gradient(0deg, #f4d45e7a 50%, #00ffff00 50%);
@@ -119,8 +112,22 @@ img {
   -webkit-box-shadow: 5px 5px 10px 4px rgba(22, 14, 170, 0.22);
   box-shadow: 5px 5px 10px 4px rgba(22, 14, 170, 0.22);
 }
-.hero__button {
-  margin: 3.2rem 0 0 0;
+/* Scrollbar Styles */
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(167, 167, 167);
+}
+/* Handle hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--yellow);
 }
 
 /* Header Styles */
@@ -176,20 +183,11 @@ img {
   margin-right: 1rem;
   text-shadow: 1px 3px 3px rgba(22, 14, 170, 0.22);
 }
+.hero__button {
+  margin: 3.2rem 0 0 0;
+}
 .hero__img-container {
-  position: relative;
-}
-.hero__img {
   width: 29vw;
-}
-.hero__circle {
-  z-index: -1;
-  position: absolute;
-  display: inline;
-  left: 0;
-  bottom: 0;
-  width: 29vw;
-  height: 100%;
 }
 /* Projects Styles */
 .title-and-arrows {
