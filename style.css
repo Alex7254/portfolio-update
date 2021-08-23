@@ -37,10 +37,10 @@ img {
 .yellow-circle__bg {
   z-index: -1;
   position: absolute;
-  display: inline;
   left: 0;
   bottom: 0;
   height: 100%;
+  width: 100%;
 }
 /* Yellow Half Background */
 .yellow-background {
@@ -415,8 +415,15 @@ img {
 .technical-skills__card:hover .subtitle {
   color: #fff;
 }
+.technical-skills__card-img-container {
+  height: 8rem;
+  z-index: 2;
+  margin-bottom: 1.6rem;
+}
 .technical-skills__card-img {
-  height: 6.2rem;
+ height: 100%;
+ width: 100%;
+ color: #ececec;
 }
 
 /* Footer Styles */
