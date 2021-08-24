@@ -415,17 +415,31 @@ img {
 .technical-skills__card:hover .subtitle {
   color: #fff;
 }
+.technical-skills__card:hover .mysvg__path {
+  stroke: #fff;
+}
 .technical-skills__card-img-container {
   height: 8rem;
   z-index: 2;
   margin-bottom: 1.6rem;
 }
 .technical-skills__card-img {
- height: 100%;
- width: 100%;
- color: #ececec;
+  height: 100%;
+  width: 100%;
+  color: #ececec;
 }
-
+.mysvg {
+  width: 100%;
+  height: 100%;
+}
+.mysvg__path {
+  fill: none;
+  stroke: var(--light-blue);
+  stroke-width: 10;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+}
 /* Footer Styles */
 .footer {
   color: #fff;
