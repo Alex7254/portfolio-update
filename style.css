@@ -422,6 +422,9 @@ img {
 .technical-skills__card:hover .mysvg__path {
   stroke: #fff;
 }
+.technical-skills__card:hover .yellow-circle__bg {
+  opacity: 0;
+ }
 .technical-skills__card-img-container {
   height: 8rem;
   z-index: 2;
