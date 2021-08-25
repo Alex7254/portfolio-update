@@ -417,7 +417,7 @@ img {
   -webkit-box-shadow: 5px 5px 10px 4px rgba(22, 14, 170, 0.22);
   box-shadow: 5px 5px 10px 4px rgba(22, 14, 170, 0.22);
 }
-.technical-skills__card:hover .subtitle {
+.technical-skills__card:hover .subtitle, .technical-skills__card:hover .blue-grey-text {
   color: #fff;
 }
 .technical-skills__card:hover .mysvg__path {
