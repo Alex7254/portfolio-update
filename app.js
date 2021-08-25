@@ -19,4 +19,3 @@ for (let i = 0, n = workExperienceCard.length; i < n; ++i) {
       : (content.style.display = "block");
   });
 }
-// projects.lastElementChild.style = "margin-right:0;";
