@@ -346,13 +346,14 @@ img {
 }
 .work-experience__card-title--light {
   font-weight: 400;
-  font-size: 0.95rem;
+  font-size: 0.93rem;
   opacity: 0.55;
   margin-top: 0.4rem;
 }
 .work-experience__date {
   font-weight: 500;
-  font-size: 1.15rem;
+  /* font-size: 1.15rem; */
+  margin-left: 2.5rem;
 }
 .work-experience__card-text {
   margin-top: 1.2rem;
@@ -581,8 +582,12 @@ img {
   .project__body {
     width: 36.5rem;
   }
+  /* Work Experience */
   .work-experience__img {
     display: none;
+  }
+  .work-experience__date {
+    margin-left: 0;
   }
   .social {
     margin: 0 2rem;
