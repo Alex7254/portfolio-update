@@ -352,8 +352,6 @@ img {
 }
 .work-experience__date {
   font-weight: 500;
-  /* font-size: 1.15rem; */
-  margin-left: 2.5rem;
 }
 .work-experience__card-text {
   margin-top: 1.2rem;
@@ -702,6 +700,15 @@ img {
     flex-wrap: nowrap;
   }
   /* Work Experience */
+  .work-experience__card-header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .work-experience__date {
+    margin-top: 1rem;
+  }
   .work-experience__cards {
     width: 100%;
     padding: 1rem 0.85rem;
