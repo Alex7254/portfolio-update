@@ -100,6 +100,7 @@ img {
   display: inline-block;
   padding: 1rem 2rem;
   font-size: 1rem;
+  letter-spacing: 0.094rem;
   color: var(--light-blue);
   background-color: var(--yellow);
   border-radius: 50rem;
@@ -394,7 +395,7 @@ img {
   color: var(--light-blue);
   cursor: default;
 }
-.technical-skills__card:hover {
+.technical-skills__card:hover, .work-experience__card:hover {
   color: #fff;
   background: rgb(42, 33, 237);
   background: -moz-linear-gradient(
