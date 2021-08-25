@@ -298,7 +298,7 @@ img {
 .work-experience__card {
   border: solid 1px#ececec;
   display: flex;
-  background-color: #fff;
+  background: #fff;
   flex-direction: column;
   justify-content: space-between;
   height: auto;
