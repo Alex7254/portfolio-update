@@ -189,6 +189,10 @@ img {
 .hero__img-container {
   width: 29vw;
 }
+.hero__img {
+  height: 100%;
+  width: 100%;
+}
 /* Projects Styles */
 .title-and-arrows {
   display: flex;
