@@ -256,8 +256,8 @@ img {
   width: 28rem;
   object-fit: cover;
   object-position: top;
-  border-top-left-radius: 1rem;
-  border-bottom-left-radius: 1rem;
+  border-top-left-radius: 0.7rem;
+  border-bottom-left-radius: 0.7rem;
 }
 .project__body {
   padding: 0 2.6rem;
