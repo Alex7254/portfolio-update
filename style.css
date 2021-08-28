@@ -52,7 +52,25 @@ img {
   font-weight: 700;
   text-shadow: 1px 3px 3px rgba(22, 14, 170, 0.22);
 }
-
+.blue-gradient {
+  background: rgb(42, 33, 237);
+  background: -moz-linear-gradient(
+    130deg,
+    rgba(42, 33, 237, 1) 0%,
+    rgba(22, 14, 170, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    130deg,
+    rgba(42, 33, 237, 1) 0%,
+    rgba(22, 14, 170, 1) 100%
+  );
+  background: linear-gradient(
+    130deg,
+    rgba(42, 33, 237, 1) 0%,
+    rgba(22, 14, 170, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#2a21ed",endColorstr="#160eaa",GradientType=1);
+}
 /* Used for padding on sections */
 .section-padding {
   padding-top: 12.5rem;
@@ -401,7 +419,8 @@ img {
   color: var(--light-blue);
   cursor: default;
 }
-.technical-skills__card:hover, .work-experience__card:hover {
+.technical-skills__card:hover,
+.work-experience__card:hover {
   color: #fff;
   background: rgb(42, 33, 237);
   background: -moz-linear-gradient(
@@ -423,7 +442,8 @@ img {
   -webkit-box-shadow: 5px 5px 10px 4px rgba(22, 14, 170, 0.22);
   box-shadow: 5px 5px 10px 4px rgba(22, 14, 170, 0.22);
 }
-.technical-skills__card:hover .subtitle, .technical-skills__card:hover .blue-grey-text {
+.technical-skills__card:hover .subtitle,
+.technical-skills__card:hover .blue-grey-text {
   color: #fff;
 }
 .technical-skills__card:hover .mysvg__path {
@@ -431,7 +451,7 @@ img {
 }
 .technical-skills__card:hover .yellow-circle__bg {
   opacity: 0;
- }
+}
 .technical-skills__card-img-container {
   height: 8rem;
   z-index: 2;
@@ -457,23 +477,6 @@ img {
 /* Footer Styles */
 .footer {
   color: #fff;
-  background: rgb(42, 33, 237);
-  background: -moz-linear-gradient(
-    130deg,
-    rgba(42, 33, 237, 1) 0%,
-    rgba(22, 14, 170, 1) 100%
-  );
-  background: -webkit-linear-gradient(
-    130deg,
-    rgba(42, 33, 237, 1) 0%,
-    rgba(22, 14, 170, 1) 100%
-  );
-  background: linear-gradient(
-    130deg,
-    rgba(42, 33, 237, 1) 0%,
-    rgba(22, 14, 170, 1) 100%
-  );
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#2a21ed",endColorstr="#160eaa",GradientType=1);
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
