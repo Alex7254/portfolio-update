@@ -573,10 +573,10 @@ img {
   /* Projects */
   .project {
     height: 27rem;
-    width: 59.375rem;
+    width: 56rem;
   }
   .project__img {
-    width: 26rem;
+    width: 24rem;
   }
   .project__body {
     width: 36.5rem;
