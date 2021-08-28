@@ -667,17 +667,11 @@ img {
     scroll-behavior: smooth;
   }
   .project {
-    border: solid 1px#ececec;
     margin-right: 0;
+    margin-bottom: 1.5rem;
     height: auto;
     width: 100%;
-    border-radius: 0.7rem;
-    display: flex;
     flex-direction: column;
-    flex-wrap: nowrap;
-    overflow: hidden;
-    cursor: default;
-    margin-bottom: 1.5rem;
   }
   .project .btn {
     margin-top: 1.5rem;
@@ -685,10 +679,8 @@ img {
   .project__img {
     height: 16.6rem;
     width: auto;
-    object-fit: cover;
-    object-position: top;
-    border-top-left-radius: 1rem;
-    border-bottom-left-radius: 1rem;
+    border-top-left-radius: 0.7rem;
+    border-bottom-left-radius: 0;
   }
   .project__body {
     padding: 2.6rem;
