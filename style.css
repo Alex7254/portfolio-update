@@ -656,7 +656,7 @@ img {
   }
   .projects__container {
     width: 100%;
-    height: 75rem;
+    /* height: 75rem; */
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -672,6 +672,7 @@ img {
     height: 45.313rem;
     width: 100%;
     flex-direction: column;
+    justify-content: space-between;
   }
   .project .btn {
     margin-top: 1.5rem;
@@ -687,7 +688,8 @@ img {
     width: auto;
     background-color: #fff;
     display: flex;
-    justify-content: space-evenly;
+    height: 100%;
+    justify-content: space-between;
     align-items: start;
     flex-direction: column;
     flex-wrap: nowrap;
