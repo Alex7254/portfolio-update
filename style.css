@@ -480,6 +480,7 @@ img {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  cursor: default;
 }
 .footer__menu {
   margin-top: 1.2rem;
