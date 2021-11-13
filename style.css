@@ -676,31 +676,17 @@ footer {
   .title-and-arrows {
     margin-right: 0;
   }
-  .project-navigation {
-    display: none;
-  }
-  .projects__container {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    overflow-x: scroll;
-    scrollbar-width: none; /* Firefox */
-    -ms-overflow-style: none; /* Internet Explorer 10+ */
-    -webkit-overflow-scrolling: touch;
-    scroll-behavior: smooth;
-  }
   .project {
     margin-right: 0;
-    margin-bottom: 1.5rem;
-    height: auto;
-    width: 100%;
+    margin-right: 1rem;
+    height: 48rem;
+    width: 26rem;
     flex-direction: column;
     justify-content: space-between;
   }
-  .project .btn {
+  /* .project .btn {
     margin-top: 1.5rem;
-  }
+  } */
   .project__img {
     height: 16.6rem;
     width: auto;
