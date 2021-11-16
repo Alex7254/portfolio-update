@@ -682,11 +682,11 @@ footer {
     height: 48rem;
     width: 26rem;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content:center;
   }
-  /* .project .btn {
+  .project .btn {
     margin-top: 1.5rem;
-  } */
+  }
   .project__img {
     height: 16.6rem;
     width: auto;
