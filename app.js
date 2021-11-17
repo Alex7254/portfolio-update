@@ -2,6 +2,10 @@ const buttonRight = document.getElementById("arrow-right");
 const buttonLeft = document.getElementById("arrow-left");
 const workExperienceCard = document.querySelectorAll(".work-experience__card");
 const projects = document.querySelector(".projects__container");
+const technicalkills = document.querySelector(".technical-skills__container");
+const technicalkillsCards = document.querySelectorAll(
+  ".technical-skills__card"
+);
 
 // Navigation arrows functions for projects section
 buttonRight.onclick = () =>
@@ -29,8 +33,24 @@ function isScrolledIntoView(el) {
   var elemBottom = rect.bottom;
 
   // Only completely visible elements return true:
-  var isVisible = (elemTop >= 0) && (elemBottom <= window.innerHeight);
+  // var isVisible = elemTop >= 0 && elemBottom <= window.innerHeight;
   // Partially visible elements return true:
-  //isVisible = elemTop < window.innerHeight && elemBottom >= 0;
+  isVisible = elemTop < window.innerHeight && elemBottom >= 0;
   return isVisible;
 }
+document.addEventListener(
+  "scroll",
+  function () {
+    if (isScrolledIntoView(technicalkills)) {
+      technicalkillsCards.forEach((skillCard) =>
+        skillCard.classList.add("skill-card-entrance")
+      );
+    }
+  },
+  {
+    passive: true,
+  }
+);
+
+// console.log(isScrolledIntoView(technicalkills));
+// console.log(technicalkills);
