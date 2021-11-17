@@ -1,3 +1,4 @@
+// DOM Elements
 const buttonRight = document.getElementById("arrow-right");
 const buttonLeft = document.getElementById("arrow-left");
 const workExperienceCard = document.querySelectorAll(".work-experience__card");
@@ -7,11 +8,9 @@ const technicalkillsCards = document.querySelectorAll(
   ".technical-skills__card"
 );
 
-// Navigation arrows functions for projects section
-buttonRight.onclick = () =>
-  (document.getElementById("projects-container").scrollLeft += 966);
-buttonLeft.onclick = () =>
-  (document.getElementById("projects-container").scrollLeft -= 966);
+// Functions
+buttonRight.onclick = () => (projects.scrollLeft += 966);
+buttonLeft.onclick = () => (projects.scrollLeft -= 966);
 
 // Work Experience Card expanding function
 for (let i = 0, n = workExperienceCard.length; i < n; ++i) {
