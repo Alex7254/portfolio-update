@@ -2,9 +2,13 @@
 const buttonRight = document.getElementById("arrow-right");
 const buttonLeft = document.getElementById("arrow-left");
 const projects = document.querySelector(".projects__container");
-const workExperienceContainer = document.querySelector(".work-experience__cards");
+const workExperienceContainer = document.querySelector(
+  ".work-experience__cards"
+);
 const workExperienceCards = document.querySelectorAll(".work-experience__card");
-const technicalkillsContainer = document.querySelector(".technical-skills__container");
+const technicalkillsContainer = document.querySelector(
+  ".technical-skills__container"
+);
 const technicalkillsCards = document.querySelectorAll(
   ".technical-skills__card"
 );
@@ -36,9 +40,12 @@ function isScrolledIntoView(el) {
 // Skill card fade in for scroll event listener
 function skillCardFadeIn() {
   if (isScrolledIntoView(technicalkillsContainer)) {
-    technicalkillsCards.forEach((skillCard) =>
-      skillCard.classList.add("fade-in")
-    );
+    technicalkillsContainer.classList.add("fade-in");
+  }
+}
+function workExperienceFadeIn() {
+  if (isScrolledIntoView(workExperienceContainer)) {
+    workExperienceContainer.classList.add("fade-in");
   }
 }
 
@@ -52,9 +59,9 @@ document.addEventListener("scroll", skillCardFadeIn, {
   passive: true,
 });
 // Fade work experience cards into view when visible
-// document.addEventListener("scroll", workExperienceFadeIn, {
-//   passive: true,
-// });
+document.addEventListener("scroll", workExperienceFadeIn, {
+  passive: true,
+});
 // Project Navigation Arrows
 buttonRight.onclick = () => (projects.scrollLeft += 966);
 buttonLeft.onclick = () => (projects.scrollLeft -= 966);
