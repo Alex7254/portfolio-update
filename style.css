@@ -40,7 +40,7 @@ footer {
   100%   {opacity: 1;}
 }
 /* Global Classes */
-.skill-card-entrance {
+.fade-in {
   animation: fade-in 1.3s ease-in;
 }
 
