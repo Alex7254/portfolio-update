@@ -42,7 +42,7 @@ document.addEventListener(
   function () {
     if (isScrolledIntoView(technicalkills)) {
       technicalkillsCards.forEach((skillCard) =>
-        skillCard.classList.add("skill-card-entrance")
+        skillCard.classList.add("fade-in")
       );
     }
   },
