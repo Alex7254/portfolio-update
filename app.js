@@ -1,8 +1,9 @@
 // DOM Elements
 const buttonRight = document.getElementById("arrow-right");
 const buttonLeft = document.getElementById("arrow-left");
-const workExperienceCards = document.querySelectorAll(".work-experience__card");
 const projects = document.querySelector(".projects__container");
+const workExperienceContainer = document.querySelector(".work-experience__cards");
+const workExperienceCards = document.querySelectorAll(".work-experience__card");
 const technicalkillsContainer = document.querySelector(".technical-skills__container");
 const technicalkillsCards = document.querySelectorAll(
   ".technical-skills__card"
