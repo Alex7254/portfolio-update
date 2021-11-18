@@ -8,11 +8,11 @@ const technicalkillsCards = document.querySelectorAll(
   ".technical-skills__card"
 );
 
-// Functions
+// Project Navigation Arrows
 buttonRight.onclick = () => (projects.scrollLeft += 966);
 buttonLeft.onclick = () => (projects.scrollLeft -= 966);
 
-// Work Experience Card expanding function
+// Loops through work experience cards to toggle open/closed css classes
 for (let i = 0, n = workExperienceCard.length; i < n; ++i) {
   workExperienceCard[i].addEventListener("click", function () {
     this.classList.toggle("work-experience__card_expanded");
