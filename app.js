@@ -1,9 +1,9 @@
 // DOM Elements
 const buttonRight = document.getElementById("arrow-right");
 const buttonLeft = document.getElementById("arrow-left");
-const workExperienceCard = document.querySelectorAll(".work-experience__card");
+const workExperienceCards = document.querySelectorAll(".work-experience__card");
 const projects = document.querySelector(".projects__container");
-const technicalkills = document.querySelector(".technical-skills__container");
+const technicalkillsContainer = document.querySelector(".technical-skills__container");
 const technicalkillsCards = document.querySelectorAll(
   ".technical-skills__card"
 );
@@ -34,7 +34,7 @@ function isScrolledIntoView(el) {
 }
 // Skill card fade in for scroll event listener
 function skillCardFadeIn() {
-  if (isScrolledIntoView(technicalkills)) {
+  if (isScrolledIntoView(technicalkillsContainer)) {
     technicalkillsCards.forEach((skillCard) =>
       skillCard.classList.add("fade-in")
     );
@@ -43,8 +43,8 @@ function skillCardFadeIn() {
 
 // Event Listeners
 // Loops through work experience cards to toggle open/closed css classes
-for (let i = 0, n = workExperienceCard.length; i < n; ++i) {
-  workExperienceCard[i].addEventListener("click", toggleExpand);
+for (let i = 0, n = workExperienceCards.length; i < n; ++i) {
+  workExperienceCards[i].addEventListener("click", toggleExpand);
 }
 // Fade skill cards into view when visible
 document.addEventListener("scroll", skillCardFadeIn, {
