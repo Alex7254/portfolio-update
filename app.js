@@ -50,7 +50,12 @@ function workExperienceFadeIn() {
 }
 function skillCardFadeIn() {
   if (isScrolledIntoView(technicalkillsContainer)) {
-    technicalkillsContainer.classList.add("fade-in");
+    // technicalkillsContainer.classList.add("fade-in");
+    for (let i = 0; i < technicalkillsCards.length; i++) {
+      setTimeout(() => {
+        technicalkillsCards[i].style.opacity = "1";
+      }, 1000 * i);
+    }
   }
 }
 
