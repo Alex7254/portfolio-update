@@ -38,14 +38,19 @@ function isScrolledIntoView(el) {
   return isVisible;
 }
 // Skill card fade in for scroll event listener
+function workExperienceFadeIn() {
+  if (isScrolledIntoView(workExperienceContainer)) {
+    // workExperienceContainer.classList.add("fade-in");
+    for (let i = 0; i < workExperienceCards.length; i++) {
+      setTimeout(() => {
+        workExperienceCards[i].style.opacity = "1";
+      }, 1000 * i);
+    }
+  }
+}
 function skillCardFadeIn() {
   if (isScrolledIntoView(technicalkillsContainer)) {
     technicalkillsContainer.classList.add("fade-in");
-  }
-}
-function workExperienceFadeIn() {
-  if (isScrolledIntoView(workExperienceContainer)) {
-    workExperienceContainer.classList.add("fade-in");
   }
 }
 
