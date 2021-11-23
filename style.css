@@ -36,9 +36,13 @@ footer {
 
 /* Animations */
 @keyframes fade-in {
-  0%   {opacity: 0;
+  0% {
+    opacity: 0;
   }
-  100%   {opacity: 1; display: block;}
+  100% {
+    opacity: 1;
+    display: block;
+  }
 }
 /* Global Classes */
 .fade-in {
@@ -445,6 +449,8 @@ footer {
   background-color: #fff;
   color: var(--light-blue);
   cursor: default;
+  transition: opacity ease-in 1.2s;
+  opacity: 0;
 }
 .technical-skills__card:hover,
 .work-experience__card:hover {
@@ -695,7 +701,7 @@ footer {
     height: 48rem;
     width: 26rem;
     flex-direction: column;
-    justify-content:center;
+    justify-content: center;
   }
   .project .btn {
     margin-top: 1.5rem;
