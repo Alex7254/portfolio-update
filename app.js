@@ -52,13 +52,14 @@ function skillCardFadeIn() {
   if (isScrolledIntoView(technicalkillsContainer)) {
     // technicalkillsContainer.classList.add("fade-in");
     for (let i = 0; i < technicalkillsCards.length; i++) {
-      setTimeout(() => {
-        technicalkillsCards[i].style.opacity = "1";
-      }, 1000 * i);
+      if (isScrolledIntoView(technicalkillsCards[i])) {
+        setTimeout(() => {
+          technicalkillsCards[i].style.opacity = "1";
+        }, 1000 * i);
+      }
     }
   }
 }
-
 // Event Listeners
 // Loops through work experience cards to toggle open/closed css classes
 for (let i = 0, n = workExperienceCards.length; i < n; ++i) {
