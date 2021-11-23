@@ -42,9 +42,11 @@ function workExperienceFadeIn() {
   if (isScrolledIntoView(workExperienceContainer)) {
     // workExperienceContainer.classList.add("fade-in");
     for (let i = 0; i < workExperienceCards.length; i++) {
-      setTimeout(() => {
-        workExperienceCards[i].style.opacity = "1";
-      }, 1000 * i);
+      if (isScrolledIntoView(workExperienceCards[i])) {
+        setTimeout(() => {
+          workExperienceCards[i].style.opacity = "1";
+        }, 1000 * i);
+      }
     }
   }
 }
