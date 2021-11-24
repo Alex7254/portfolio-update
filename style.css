@@ -698,8 +698,8 @@ footer {
   .project {
     margin-right: 0;
     margin-right: 1rem;
-    height: 48rem;
-    width: 26rem;
+    height: 44rem;
+    width: 24rem;
     flex-direction: column;
     justify-content: center;
   }
@@ -707,7 +707,7 @@ footer {
     margin-top: 1.5rem;
   }
   .project__img {
-    height: 16.6rem;
+    height: 14rem;
     width: auto;
     border-top-left-radius: 0.7rem;
     border-bottom-left-radius: 0;
@@ -722,6 +722,7 @@ footer {
     align-items: start;
     flex-direction: column;
     flex-wrap: nowrap;
+    font-size: 0.85rem;
   }
   /* Work Experience */
   .work-experience__card-header {
