@@ -644,6 +644,8 @@ footer {
   .section-padding.header {
     padding-top: 2.2rem;
     padding-bottom: 2.2rem;
+    padding-left: 0;
+    padding-right: 0;
   }
   .section-padding.projects {
     padding-right: 1.7rem;
@@ -656,13 +658,13 @@ footer {
     flex-wrap: wrap;
   }
   .logo {
-    height: 3.2rem;
-    width: 3.2rem;
+    height: 1.7rem;
+    width: 1.7rem;
     margin-bottom: 2rem;
     margin-right: 0;
   }
   .nav__items {
-    font-size: 0.9rem;
+    font-size: 0.7rem;
     display: flex;
     justify-content: space-between;
     flex-direction: row;
@@ -675,15 +677,17 @@ footer {
     justify-content: center;
     align-items: center;
     flex-wrap: nowrap;
-    height: 30rem;
+    height: 34rem;
     text-align: center;
+    padding-left: 0;
+    padding-right: 0;
   }
   .hero__left-side {
     color: var(--light-blue);
     width: 90%;
   }
   .hero__header {
-    font-size: 2.2rem;
+    font-size: 1.8rem;
     line-height: 2.5rem;
     margin-right: 0;
   }
