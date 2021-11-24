@@ -404,7 +404,6 @@ footer {
   opacity: 0.75;
   line-height: 1.563rem;
   display: none;
-  /* text-indent: 12px; */
 }
 .work-experience__card-text li {
   margin-bottom: 0.4rem;
@@ -531,9 +530,6 @@ footer {
 /* ////////////////////////////////////////// */
 
 /* MEDIA QUERIES */
-/* Extra large devices less than 1550px) */
-@media only screen and (max-width: 1440px) {
-}
 /* Large devices less than 992px */
 @media only screen and (max-width: 84.063rem) {
   .section-padding {
@@ -729,6 +725,11 @@ footer {
     font-size: 0.85rem;
   }
   /* Work Experience */
+  .work-experience__cards {
+    width: 100%;
+    padding: 1rem 0.85rem;
+    height: auto;
+  }
   .work-experience__card-header {
     display: flex;
     justify-content: space-between;
@@ -738,9 +739,8 @@ footer {
   .work-experience__date {
     margin-top: 1rem;
   }
-  .work-experience__cards {
-    width: 100%;
-    padding: 1rem 0.85rem;
+  .work-experience__card-text {
+    font-size: 0.85rem;
   }
   /* Technical Skills */
   .technical-skills__card {
