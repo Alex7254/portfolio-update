@@ -38,15 +38,20 @@ footer {
 @keyframes fade-in {
   0% {
     opacity: 0;
+    bottom: -160px;
+  }
+  50% {
+    opacity: 0.4;
   }
   100% {
     opacity: 1;
-    display: block;
+    bottom: 0px;
   }
 }
 /* Global Classes */
 .fade-in {
-  animation: fade-in 1.12s ease-in alternate;
+  animation: fade-in 0.9s ease-out;
+  position: relative;
 }
 
 .max-width {
