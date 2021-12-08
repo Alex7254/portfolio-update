@@ -45,7 +45,7 @@ function workExperienceFadeIn() {
       if (isScrolledIntoView(workExperienceCards[i])) {
         setTimeout(() => {
           workExperienceCards[i].style.opacity = "1";
-        }, 1000 * i);
+        }, 900 * i);
       }
     }
   }
@@ -57,7 +57,7 @@ function skillCardFadeIn() {
       if (isScrolledIntoView(technicalkillsCards[i])) {
         setTimeout(() => {
           technicalkillsCards[i].style.opacity = "1";
-        }, 1000 * i);
+        }, 900 * i);
       }
     }
   }
