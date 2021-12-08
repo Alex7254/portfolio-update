@@ -50,7 +50,7 @@ footer {
 }
 /* Global Classes */
 .fade-in {
-  animation: fade-in 0.9s ease-out;
+  animation: 0.9s ease-out fade-in;
   position: relative;
 }
 
