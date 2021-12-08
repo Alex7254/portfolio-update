@@ -760,4 +760,7 @@ footer {
   .contact {
     margin-top: 2.5rem;
   }
+  footer {
+    margin-top: 0;
+  }
 }
