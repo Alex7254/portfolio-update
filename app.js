@@ -2,6 +2,7 @@
 const buttonRight = document.getElementById("arrow-right");
 const buttonLeft = document.getElementById("arrow-left");
 const projects = document.querySelector(".projects__container");
+const projectWidth = document.querySelector(".project").offsetWidth;
 const workExperienceContainer = document.querySelector(
   ".work-experience__cards"
 );
@@ -24,6 +25,7 @@ function toggleExpand() {
     ? (content.style.display = "none")
     : (content.style.display = "block");
 }
+
 // Check if element is visible. From https://stackoverflow.com/a/22480938
 function isScrolledIntoView(el) {
   let rect = el.getBoundingClientRect();
@@ -37,6 +39,7 @@ function isScrolledIntoView(el) {
   isVisible = elemTop < window.innerHeight && elemBottom >= 0;
   return isVisible;
 }
+
 // Skill card fade in for scroll event listener
 function workExperienceFadeIn() {
   if (isScrolledIntoView(workExperienceContainer)) {
@@ -50,6 +53,7 @@ function workExperienceFadeIn() {
     }
   }
 }
+
 function skillCardFadeIn() {
   if (isScrolledIntoView(technicalkillsContainer)) {
     // technicalkillsContainer.classList.add("fade-in");
@@ -62,6 +66,7 @@ function skillCardFadeIn() {
     }
   }
 }
+
 // Event Listeners
 // Loops through work experience cards to toggle open/closed css classes
 for (let i = 0, n = workExperienceCards.length; i < n; ++i) {
@@ -76,5 +81,5 @@ document.addEventListener("scroll", workExperienceFadeIn, {
   passive: true,
 });
 // Project Navigation Arrows
-buttonRight.onclick = () => (projects.scrollLeft += 966);
-buttonLeft.onclick = () => (projects.scrollLeft -= 966);
+buttonRight.onclick = () => (projects.scrollLeft += projectWidth);
+buttonLeft.onclick = () => (projects.scrollLeft -= projectWidth);
