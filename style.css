@@ -18,7 +18,6 @@ html {
 body {
   font-family: "Montserrat", sans-serif;
   scroll-behavior: smooth;
-  overflow-y: scroll !important;
   -webkit-overflow-scrolling: touch;
 }
 ul,
