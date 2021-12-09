@@ -18,6 +18,8 @@ html {
 body {
   font-family: "Montserrat", sans-serif;
   scroll-behavior: smooth;
+  overflow-y: scroll !important;
+  -webkit-overflow-scrolling: touch;
 }
 ul,
 ol {
@@ -26,6 +28,7 @@ ol {
 a {
   text-decoration: none;
 }
+
 img {
   max-width: 100%;
   height: auto;
