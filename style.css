@@ -277,6 +277,7 @@ footer {
   -ms-overflow-style: none; /* Internet Explorer 10+ */
   -webkit-overflow-scrolling: touch;
   scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
 }
 .projects__container::-webkit-scrollbar,
 .work-experience__cards::-webkit-scrollbar {
@@ -286,6 +287,7 @@ footer {
   height: 0;
 }
 .project {
+  scroll-snap-align: start;
   flex-shrink: 0;
   border: solid 1px#ececec;
   background-color: #fff;
