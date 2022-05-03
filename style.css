@@ -291,7 +291,7 @@ footer {
 .project {
   scroll-snap-align: start;
   flex-shrink: 0;
-  border: solid 1px#ececec;
+  border: solid 1px #ececec;
   background-color: #fff;
   margin-right: 1rem;
   height: 30rem;
@@ -347,7 +347,7 @@ footer {
   max-height: 33rem;
 }
 .work-experience__card {
-  border: solid 1px#ececec;
+  border: solid 1px #ececec;
   display: flex;
   background: #fff;
   flex-direction: column;
@@ -453,7 +453,7 @@ footer {
   padding: 3rem;
   height: 30rem;
   width: 24rem;
-  border: solid 1px#ececec;
+  border: solid 1px #ececec;
   background-color: #fff;
   color: var(--light-blue);
   cursor: default;
