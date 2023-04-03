@@ -198,7 +198,7 @@ footer {
   justify-content: space-between;
   flex-direction: row;
   flex-wrap: nowrap;
-  width: 27rem;
+  width: 40rem;
 }
 .nav__item {
   color: var(--light-blue);
